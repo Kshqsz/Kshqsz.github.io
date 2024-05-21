@@ -1,0 +1,7 @@
+http://example.com/2024/05/20/hello-world/
+http://example.com/schedule/index.html
+http://example.com/about/index.html
+http://example.com/resources/index.html
+http://example.com/tags/index.html
+http://example.com/categories/index.html
+http://example.com/
