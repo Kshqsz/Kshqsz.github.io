@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-22T05:20:11.711Z</updated>
+  <updated>2024-05-22T12:46:43.690Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>计算机组成原理零散知识合集</title>
+    <link href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%9B%B6%E6%95%A3%E7%9F%A5%E8%AF%86%E5%90%88%E9%9B%86/"/>
+    <id>http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%9B%B6%E6%95%A3%E7%9F%A5%E8%AF%86%E5%90%88%E9%9B%86/</id>
+    <published>2024-05-22T12:42:21.000Z</published>
+    <updated>2024-05-22T12:46:43.690Z</updated>
+    
+    
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue</title>
+    <link href="http://example.com/2024/05/22/Vue/"/>
+    <id>http://example.com/2024/05/22/Vue/</id>
+    <published>2024-05-22T08:17:24.000Z</published>
+    <updated>2024-05-22T08:35:00.498Z</updated>
+    
+    
+    
+    
+    <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Docker</title>
     <link href="http://example.com/2024/05/21/Docker/"/>
     <id>http://example.com/2024/05/21/Docker/</id>
     <published>2024-05-21T15:11:00.000Z</published>
-    <updated>2024-05-22T05:20:11.711Z</updated>
+    <updated>2024-05-22T12:10:05.887Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h1><h2 id="Docker的安装"><a href="#Docker的安装" class="headerlink" title="Docker的安装"></a>Docker的安装</h2><p><img src="/2024/05/21/Docker/image-20240522193558516.png" alt="image-20240522193558516"></p><p>注意先通过</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su root</span><br></pre></td></tr></table></figure><p>进入管理员身份后再运行此代码</p><p><img src="/2024/05/21/Docker/image-20240522194049350.png" alt="image-20240522194049350"></p><p><img src="/2024/05/21/Docker/image-20240522194056836.png" alt="image-20240522194056836"></p><p><img src="/2024/05/21/Docker/image-20240522194103643.png" alt="image-20240522194103643"><img src="/2024/05/21/Docker/image-20240522194112899.png" alt="image-20240522194112899"></p><p><img src="/2024/05/21/Docker/image-20240522194127316.png" alt="image-20240522194127316"></p><p><img src="/2024/05/21/Docker/image-20240522194132604.png" alt="image-20240522194132604"></p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="部署-MySQL"><a href="#部署-MySQL" class="headerlink" title="部署 MySQL"></a>部署 MySQL</h3><p>控制台输入</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker run <span class="literal">-d</span> \</span><br><span class="line">  <span class="literal">--name</span> mysql \</span><br><span class="line">  <span class="literal">-p</span> <span class="number">3306</span>:<span class="number">3306</span> \</span><br><span class="line">  <span class="literal">-e</span> TZ=Asia/Shanghai \</span><br><span class="line">  <span class="literal">-e</span> MYSQL_ROOT_PASSWORD=<span class="number">123</span> \</span><br><span class="line">  mysql</span><br></pre></td></tr></table></figure><p>大家可以发现，当我们执行命令后，Docker做的第一件事情，是去自动搜索并下载了MySQL，然后会自动运行MySQL，我们完全不用插手，是不是非常方便。</p><p>而且，这种安装方式你完全不用考虑运行的操作系统环境，它不仅仅在CentOS系统是这样，在Ubuntu系统、macOS系统、甚至是装了WSL的Windows下，都可以使用这条命令来安装MySQL。</p><p>要知道，<strong>不同操作系统下其安装包、运行环境是都不相同的</strong>！如果是<strong>手动安装，必须手动解决安装包不同、环境不同的、配置不同的问题</strong>！</p><p>而使用Docker，这些完全不用考虑。就是因为Docker会自动搜索并下载MySQL。注意：这里下载的不是安装包，而是<strong>镜像。</strong>镜像中不仅包含了MySQL本身，还包含了其运行所需要的环境、配置、系统级函数库。因此它在运行时就有自己独立的环境，就可以跨系统运行，也不需要手动再次配置环境了。这套独立运行的隔离环境我们称为<strong>容器</strong>。</p><h3 id><a href="#" class="headerlink" title></a></h3><h3 id="命令解读"><a href="#命令解读" class="headerlink" title="命令解读"></a>命令解读</h3><ul><li>docker run : 创建并运行一个容器 ， -d 是让容器在后台运行</li><li>–name mysql : 给容器起个名字，必须唯一</li><li>-p 3306:3306: 设置端口映射 (第一个参数是宿主机端口，第二个容器内的端口)</li><li>-e KEY&#x3D;VALUE：是设置环境变量</li><li>mysql：指定运行的镜像的名称</li></ul><p><img src="/2024/05/21/Docker/image-20240522200954333.png" alt="image-20240522200954333"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot; title=&quot;Docker&quot;&gt;&lt;/a&gt;Docker&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot; title=&quot;Docker&quot;&gt;&lt;/a&gt;Docker&lt;/h1&gt;&lt;h2 id=&quot;Docker的安装&quot;&gt;&lt;a href=&quot;#Docker的安装&quot; class=&quot;headerlink</summary>
       
     
     
@@ -45,13 +79,22 @@
     <link href="http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
     <id>http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
     <published>2024-05-21T14:23:49.000Z</published>
-    <updated>2024-05-22T04:33:05.227Z</updated>
+    <updated>2024-05-22T12:52:23.313Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="第四章-指令系统"><a href="#第四章-指令系统" class="headerlink" title="第四章 指令系统"></a>第四章 指令系统</h1><h2 id="指令格式"><a href="#指令格式" class="headerlink" title="指令格式"></a>指令格式</h2><ol><li><p>零地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522201906602.png" alt="image-20240522201906602"></p></li><li><p>一地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202200028.png" alt="image-20240522202200028"></p></li><li><p>二、三地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202356914.png" alt="image-20240522202356914"></p></li><li><p>四地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202516755.png" alt="image-20240522202516755"></p></li></ol><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202625420.png" alt="image-20240522202625420"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203014082.png" alt="image-20240522203014082"></p><h2 id="扩展操作码指令格式"><a href="#扩展操作码指令格式" class="headerlink" title="扩展操作码指令格式"></a>扩展操作码指令格式</h2><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203441907.png" alt="image-20240522203441907"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203822773.png" alt="image-20240522203822773"></p><h2 id="指令寻址"><a href="#指令寻址" class="headerlink" title="指令寻址"></a>指令寻址</h2><h3 id="顺序寻址"><a href="#顺序寻址" class="headerlink" title="顺序寻址"></a>顺序寻址</h3><ul><li>顺序寻址即为一条一条往下执行，每次 <strong>PC</strong> 加  ‘1’  这里的  1 可以理解为 1 个指令字长， 实际加的值会因为指令长度、编址方式而不同</li></ul><h3 id="跳跃寻址"><a href="#跳跃寻址" class="headerlink" title="跳跃寻址"></a>跳跃寻址</h3><ul><li>由转移指令指出，类似于 <strong>goto</strong> 的使用，即无条件转移把 <strong>PC</strong> 中的内容改成转移指令给出的值</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第四章-指令系统&quot;&gt;&lt;a href=&quot;#第四章-指令系统&quot; class=&quot;headerlink&quot; title=&quot;第四章 指令系统&quot;&gt;&lt;/a&gt;第四章 指令系统&lt;/h1&gt;&lt;h2 id=&quot;指令格式&quot;&gt;&lt;a href=&quot;#指令格式&quot; class=&quot;headerlink&quot; </summary>
+      
     
     
     
     <category term="计算机组成原理" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
     
+    
+    <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
     
   </entry>
   
@@ -60,9 +103,9 @@
     <link href="http://example.com/2024/05/21/MybatisPlus/"/>
     <id>http://example.com/2024/05/21/MybatisPlus/</id>
     <published>2024-05-21T14:11:35.000Z</published>
-    <updated>2024-05-22T05:20:20.273Z</updated>
+    <updated>2024-05-22T11:26:54.373Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="MybatisPlus-核心功能"><a href="#MybatisPlus-核心功能" class="headerlink" title="MybatisPlus 核心功能"></a>MybatisPlus 核心功能</h1><h2 id="IService-批量处理"><a href="#IService-批量处理" class="headerlink" title="IService 批量处理"></a>IService 批量处理</h2><p>开启 rewriteBatchedStatements &#x3D; true 参数可以使得批量插入速度得到提升(数量越大提升越明显)</p><h1 id="MybatisPlus-拓展功能"><a href="#MybatisPlus-拓展功能" class="headerlink" title="MybatisPlus 拓展功能"></a>MybatisPlus 拓展功能</h1><h2 id="代码生成器"><a href="#代码生成器" class="headerlink" title="代码生成器"></a>代码生成器</h2><blockquote><p>即根据数据库表结构自动生成对应代码</p></blockquote><ol><li><p>安装插件 MybatisPlus</p></li><li><p>点击 idea 导航栏中的 Other 连接对应数据库 (注意要加上对应时区) <img src="/2024/05/21/MybatisPlus/image-20240521224805193.png" alt="image-20240521224805193"></p></li><li><p>进行代码生成 <img src="/2024/05/21/MybatisPlus/image-20240521225037648.png" alt="image-20240521225037648"></p><p>生成的效果如下 (仅展示实体类部分)</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"> * <span class="meta">@author</span> author</span><br><span class="line"> * <span class="meta">@since</span> <span class="number">2024</span>-<span class="number">05</span>-<span class="number">21</span></span><br><span class="line"> */</span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@EqualsAndHashCode(callSuper = false)</span></span><br><span class="line"><span class="meta">@Accessors(chain = true)</span></span><br><span class="line"><span class="meta">@TableName(&quot;address&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Address</span> <span class="keyword">implements</span> <span class="title class_">Serializable</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">serialVersionUID</span> <span class="operator">=</span> <span class="number">1L</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@TableId(value = &quot;id&quot;, type = IdType.AUTO)</span></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 用户ID</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> Long userId;</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure></li></ol><h2 id="DB静态工具"><a href="#DB静态工具" class="headerlink" title="DB静态工具"></a>DB静态工具</h2><ol><li></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="MybatisPlus-核心功能"><a href="#MybatisPlus-核心功能" class="headerlink" title="MybatisPlus 核心功能"></a>MybatisPlus 核心功能</h1><h2 id="IService-批量处理"><a href="#IService-批量处理" class="headerlink" title="IService 批量处理"></a>IService 批量处理</h2><p>开启 rewriteBatchedStatements &#x3D; true 参数可以使得批量插入速度得到提升(数量越大提升越明显)</p><h1 id="MybatisPlus-拓展功能"><a href="#MybatisPlus-拓展功能" class="headerlink" title="MybatisPlus 拓展功能"></a>MybatisPlus 拓展功能</h1><h2 id="代码生成器"><a href="#代码生成器" class="headerlink" title="代码生成器"></a>代码生成器</h2><blockquote><p>即根据数据库表结构自动生成对应代码</p></blockquote><ol><li><p>安装插件 MybatisPlus</p></li><li><p>点击 idea 导航栏中的 Other 连接对应数据库 (注意要加上对应时区) <img src="/2024/05/21/MybatisPlus/image-20240521224805193.png" alt="image-20240521224805193"></p></li><li><p>进行代码生成 <img src="/2024/05/21/MybatisPlus/image-20240521225037648.png" alt="image-20240521225037648"></p><p>生成的效果如下 (仅展示实体类部分)</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"> * <span class="meta">@author</span> author</span><br><span class="line"> * <span class="meta">@since</span> <span class="number">2024</span>-<span class="number">05</span>-<span class="number">21</span></span><br><span class="line"> */</span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@EqualsAndHashCode(callSuper = false)</span></span><br><span class="line"><span class="meta">@Accessors(chain = true)</span></span><br><span class="line"><span class="meta">@TableName(&quot;address&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Address</span> <span class="keyword">implements</span> <span class="title class_">Serializable</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">serialVersionUID</span> <span class="operator">=</span> <span class="number">1L</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@TableId(value = &quot;id&quot;, type = IdType.AUTO)</span></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 用户ID</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> Long userId;</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure></li></ol><h2 id="DB静态工具"><a href="#DB静态工具" class="headerlink" title="DB静态工具"></a>DB静态工具</h2><ol><li>当需要使用多个 Service 直接相互调用的时候可以使用 DB静态工具 用法如下<img src="/2024/05/21/MybatisPlus/image-20240522183819638.png" alt="image-20240522183819638"></li></ol><p>根据用户 id 在另一个 address 表中查询其地址信息</p><ol start="2"><li>实现 ‘1’ 中的批量查询功能，根据 ids 查询多个用户的地址信息</li></ol><p><img src="/2024/05/21/MybatisPlus/image-20240522184819197.png" alt="image-20240522184819197"></p><p><img src="/2024/05/21/MybatisPlus/image-20240522184729262.png" alt="image-20240522184729262"></p><h2 id="逻辑删除"><a href="#逻辑删除" class="headerlink" title="逻辑删除"></a>逻辑删除</h2><p>即根据代码逻辑模拟删除，但并不会真正删除。思路如下：</p><ul><li>在表中添加一个字段标记数据是否被删除</li><li>当删除数据时把标记置为1</li><li>查询时只查询标记为0的数据</li></ul><p><img src="/2024/05/21/MybatisPlus/image-20240522185243382.png" alt="image-20240522185243382"></p><p>只需要在 yml 中配置逻辑删除字段即可</p><h2 id="枚举处理器"><a href="#枚举处理器" class="headerlink" title="枚举处理器"></a>枚举处理器</h2><p><img src="/2024/05/21/MybatisPlus/image-20240522190049159.png" alt="image-20240522190049159"></p><h2 id="JSON-处理器"><a href="#JSON-处理器" class="headerlink" title="JSON 处理器"></a>JSON 处理器</h2><p><img src="/2024/05/21/MybatisPlus/image-20240522190411764.png" alt="image-20240522190411764"></p><h2 id="插件功能"><a href="#插件功能" class="headerlink" title="插件功能"></a>插件功能</h2><h3 id="分页插件的基本使用"><a href="#分页插件的基本使用" class="headerlink" title="分页插件的基本使用"></a>分页插件的基本使用</h3><ol><li><p>配置分页插件的拦截器<img src="/2024/05/21/MybatisPlus/image-20240522190948343.png" alt="image-20240522190948343"></p></li><li><p>使用分页的工具<img src="/2024/05/21/MybatisPlus/image-20240522191007640.png" alt="image-20240522191007640"></p></li></ol><h3 id="通用分页实体"><a href="#通用分页实体" class="headerlink" title="通用分页实体"></a>通用分页实体</h3><ol><li><p>案例<img src="/2024/05/21/MybatisPlus/image-20240522191217367.png" alt="image-20240522191217367"></p></li><li><p>代码如下<img src="/2024/05/21/MybatisPlus/image-20240522191711694.png" alt="image-20240522191711694"></p></li></ol><p><img src="/2024/05/21/MybatisPlus/image-20240522191723171.png" alt="image-20240522191723171"></p><h3 id="通用分页实体与-mp-转换"><a href="#通用分页实体与-mp-转换" class="headerlink" title="通用分页实体与 mp 转换"></a>通用分页实体与 mp 转换</h3><p>将构建分页条件和封装 VO 结果写在实体方法里面 最后再在业务中调用</p>]]></content>
     
     
       
