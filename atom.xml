@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kshqsz&#39;s Blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-05-22T05:20:11.711Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Kshqsz</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="http://example.com/2024/05/21/Docker/"/>
+    <id>http://example.com/2024/05/21/Docker/</id>
+    <published>2024-05-21T15:11:00.000Z</published>
+    <updated>2024-05-22T05:20:11.711Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot; title=&quot;Docker&quot;&gt;&lt;/a&gt;Docker&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    <category term="Java后端" scheme="http://example.com/categories/Java%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="微服务" scheme="http://example.com/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理</title>
+    <link href="http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
+    <published>2024-05-21T14:23:49.000Z</published>
+    <updated>2024-05-22T04:33:05.227Z</updated>
+    
+    
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MybatisPlus</title>
+    <link href="http://example.com/2024/05/21/MybatisPlus/"/>
+    <id>http://example.com/2024/05/21/MybatisPlus/</id>
+    <published>2024-05-21T14:11:35.000Z</published>
+    <updated>2024-05-22T05:20:20.273Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MybatisPlus-核心功能"><a href="#MybatisPlus-核心功能" class="headerlink" title="MybatisPlus 核心功能"></a>MybatisPlus 核心功能</h1><h2 id="IService-批量处理"><a href="#IService-批量处理" class="headerlink" title="IService 批量处理"></a>IService 批量处理</h2><p>开启 rewriteBatchedStatements &#x3D; true 参数可以使得批量插入速度得到提升(数量越大提升越明显)</p><h1 id="MybatisPlus-拓展功能"><a href="#MybatisPlus-拓展功能" class="headerlink" title="MybatisPlus 拓展功能"></a>MybatisPlus 拓展功能</h1><h2 id="代码生成器"><a href="#代码生成器" class="headerlink" title="代码生成器"></a>代码生成器</h2><blockquote><p>即根据数据库表结构自动生成对应代码</p></blockquote><ol><li><p>安装插件 MybatisPlus</p></li><li><p>点击 idea 导航栏中的 Other 连接对应数据库 (注意要加上对应时区) <img src="/2024/05/21/MybatisPlus/image-20240521224805193.png" alt="image-20240521224805193"></p></li><li><p>进行代码生成 <img src="/2024/05/21/MybatisPlus/image-20240521225037648.png" alt="image-20240521225037648"></p><p>生成的效果如下 (仅展示实体类部分)</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"> * <span class="meta">@author</span> author</span><br><span class="line"> * <span class="meta">@since</span> <span class="number">2024</span>-<span class="number">05</span>-<span class="number">21</span></span><br><span class="line"> */</span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@EqualsAndHashCode(callSuper = false)</span></span><br><span class="line"><span class="meta">@Accessors(chain = true)</span></span><br><span class="line"><span class="meta">@TableName(&quot;address&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Address</span> <span class="keyword">implements</span> <span class="title class_">Serializable</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">serialVersionUID</span> <span class="operator">=</span> <span class="number">1L</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@TableId(value = &quot;id&quot;, type = IdType.AUTO)</span></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 用户ID</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> Long userId;</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure></li></ol><h2 id="DB静态工具"><a href="#DB静态工具" class="headerlink" title="DB静态工具"></a>DB静态工具</h2><ol><li></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;MybatisPlus-核心功能&quot;&gt;&lt;a href=&quot;#MybatisPlus-核心功能&quot; class=&quot;headerlink&quot; title=&quot;MybatisPlus 核心功能&quot;&gt;&lt;/a&gt;MybatisPlus 核心功能&lt;/h1&gt;&lt;h2 id=&quot;IService-</summary>
+      
+    
+    
+    
+    <category term="Java后端" scheme="http://example.com/categories/Java%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="微服务" scheme="http://example.com/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法与程序设计考试</title>
+    <link href="http://example.com/2024/05/21/%E7%AE%97%E6%B3%95%E4%B8%8E%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://example.com/2024/05/21/%E7%AE%97%E6%B3%95%E4%B8%8E%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</id>
+    <published>2024-05-21T07:50:02.570Z</published>
+    <updated>2024-05-21T14:08:42.173Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> pre_min = <span class="number">1E9</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">ans = <span class="built_in">max</span>(ans, prices[i] - pre_min);</span><br><span class="line">pre_min = <span class="built_in">min</span>(pre_min, prices[i]);</span><br><span class="line">&#125;</span><br><span class="line">cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2024/05/20/hello-world/"/>
+    <id>http://example.com/2024/05/20/hello-world/</id>
+    <published>2024-05-20T14:09:08.625Z</published>
+    <updated>2024-05-21T07:57:05.908Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一篇博客</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是我的第一篇博客&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
