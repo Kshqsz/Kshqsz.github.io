@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-23T15:25:33.773Z</updated>
+  <updated>2024-05-23T15:26:58.229Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://example.com/2024/05/23/JavaEE/"/>
     <id>http://example.com/2024/05/23/JavaEE/</id>
     <published>2024-05-23T00:12:31.000Z</published>
-    <updated>2024-05-23T15:25:33.773Z</updated>
+    <updated>2024-05-23T15:26:58.229Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="所有项目源码-Kshqsz-GoodsServiceManager-github-com"><a href="#所有项目源码-Kshqsz-GoodsServiceManager-github-com" class="headerlink" title="所有项目源码 Kshqsz&#x2F;GoodsServiceManager (github.com)"></a>所有项目源码 <a href="https://github.com/Kshqsz/GoodsServiceManager">Kshqsz&#x2F;GoodsServiceManager (github.com)</a></h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="商品信息管理系统"><a href="#商品信息管理系统" class="headerlink" title="商品信息管理系统"></a>商品信息管理系统</h1><h2 id="所有项目源码-Kshqsz-GoodsServiceManager-github-com"><a href="#所有项目源码-Kshqsz-GoodsServiceManager-github-com" class="headerlink" title="所有项目源码: Kshqsz&#x2F;GoodsServiceManager (github.com)"></a>所有项目源码: <a href="https://github.com/Kshqsz/GoodsServiceManager">Kshqsz&#x2F;GoodsServiceManager (github.com)</a></h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;所有项目源码-Kshqsz-GoodsServiceManager-github-com&quot;&gt;&lt;a href=&quot;#所有项目源码-Kshqsz-GoodsServiceManager-github-com&quot; class=&quot;headerlink&quot; title=&quot;所有项目</summary>
+    <summary type="html">&lt;h1 id=&quot;商品信息管理系统&quot;&gt;&lt;a href=&quot;#商品信息管理系统&quot; class=&quot;headerlink&quot; title=&quot;商品信息管理系统&quot;&gt;&lt;/a&gt;商品信息管理系统&lt;/h1&gt;&lt;h2 id=&quot;所有项目源码-Kshqsz-GoodsServiceManager-github-</summary>
       
     
     
@@ -45,9 +45,9 @@
     <link href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/"/>
     <id>http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</id>
     <published>2024-05-22T15:39:59.000Z</published>
-    <updated>2024-05-23T15:22:19.857Z</updated>
+    <updated>2024-05-23T15:53:57.329Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="第一章期末复习"><a href="#第一章期末复习" class="headerlink" title="第一章期末复习"></a>第一章期末复习</h1><ol><li><p>下列部件的位数一定与机器字长相同的是 (B)</p><p>I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器</p><ul><li>A. I、II</li><li>B. I、III</li><li>C. II、III</li><li>D. II、III、IV</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="第一章期末复习"><a href="#第一章期末复习" class="headerlink" title="第一章期末复习"></a>第一章期末复习</h1><ol><li><p>下列部件的位数一定与机器字长相同的是 (B)</p><p>I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器</p><blockquote><p>B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结构，比如乘法器等。</p><p>拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于存储当前正在执行的指令。所以其位数   通常与计算机体系结构和指令集架构有关，与指令长度，寻址方式等密切相关。</p><p>​   浮点寄存器浮点寄存器（Floating Point Register）是计算机中用来存储浮点数（floating-point numbers）的寄存器。通   常需要更多位数进行拓展以提高计算精度。</p></blockquote><ul><li>A. I、II</li><li>B. I、III</li><li>C. II、III</li><li>D. II、III、IV</li></ul></li><li><p>下列关于冯·诺依曼结构计算机基本思想的叙述中，错误的是 (C)</p><blockquote><p>C 错误，因为数据不一定都直接在指令中给出。它可以存储在存储器的某个地址中，然后在执行指令时按地址访问这个数据。类似于一种间接访问的形式。</p></blockquote><ul><li>A. 程序的功能都通过中央处理器执行指令实现</li><li>B. 指令和数据都用二进制表示，形式上无差别</li><li>C. 指令按地址访问，数据都在指令中直接给出</li><li>D. 程序执行前，指令和数据需预先存放在存储器中</li></ul></li><li><p>$93 PFLOPS$​  &#x3D; (D)</p></li></ol><blockquote><p>首先需要知道 P 是多大 注意这里的 P  是用来衡量计算速度的而不是文件大小</p><p>在衡量大小时 $1K &#x3D; 2^{10}\ \ 1M &#x3D; 2^{20} \ \ 1G &#x3D; 2^{30} \ \ 1T &#x3D; 2^{40} \ \ 1P &#x3D; 2^{50}$</p><p>在衡量速度时 $1K &#x3D; 10^3 \ \ 1M &#x3D; 10^6 \ \ 1G &#x3D; 10^9 \ \ 1T &#x3D; 10^{12} \ \ 1P &#x3D; 10^{15}$</p><p>此题中即 $93\times 10^{15} &#x3D; 9.3\times 10^{16}$   而 $10^8 &#x3D; 1亿$</p><p> 所以选择D $9.3亿亿$</p></blockquote><ul><li><p>A. $9.3 \times 10^{13}$</p></li><li><p>B. $9.3 \times 10^{15}$</p></li><li><p>C. $9.3千万亿$</p></li><li><p>D. $9.3亿亿$</p></li></ul>]]></content>
     
     
       
