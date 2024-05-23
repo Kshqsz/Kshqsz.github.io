@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-23T00:58:04.331Z</updated>
+  <updated>2024-05-23T01:07:48.636Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2024/05/23/JavaEE/"/>
     <id>http://example.com/2024/05/23/JavaEE/</id>
     <published>2024-05-23T00:12:31.000Z</published>
-    <updated>2024-05-23T00:58:04.331Z</updated>
+    <updated>2024-05-23T01:07:48.636Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a>SpringMVC</h1><h2 id="数据库连接池"><a href="#数据库连接池" class="headerlink" title="数据库连接池"></a>数据库连接池</h2><ul><li>数据库连接池是应用程序和数据库之间的中间层，用于管理数据库连接的创建、分配和释放。它的主要目的是避免频繁地创建和销毁数据库连接，以提高系统的性能和效率。尤其是在处理大量请求时，可以有效提高访问效率。</li><li>一般使用 <strong>Druid</strong> 作为数据库连接池</li></ul>]]></content>
     
@@ -45,8 +45,17 @@
     <link href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/"/>
     <id>http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</id>
     <published>2024-05-22T15:39:59.000Z</published>
-    <updated>2024-05-23T00:15:45.213Z</updated>
+    <updated>2024-05-23T15:22:19.857Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="第一章期末复习"><a href="#第一章期末复习" class="headerlink" title="第一章期末复习"></a>第一章期末复习</h1><ol><li><p>下列部件的位数一定与机器字长相同的是 (B)</p><p>I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器</p><ul><li>A. I、II</li><li>B. I、III</li><li>C. II、III</li><li>D. II、III、IV</li></ul></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第一章期末复习&quot;&gt;&lt;a href=&quot;#第一章期末复习&quot; class=&quot;headerlink&quot; title=&quot;第一章期末复习&quot;&gt;&lt;/a&gt;第一章期末复习&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下列部件的位数一定与机器字长相同的是 (B)&lt;/p&gt;
+&lt;p&gt;I. ALU  II.</summary>
+      
     
     
     
@@ -120,9 +129,9 @@
     <link href="http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
     <id>http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
     <published>2024-05-21T14:23:49.000Z</published>
-    <updated>2024-05-22T12:59:38.312Z</updated>
+    <updated>2024-05-23T07:29:12.703Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="第四章-指令系统"><a href="#第四章-指令系统" class="headerlink" title="第四章 指令系统"></a>第四章 指令系统</h1><h2 id="指令格式"><a href="#指令格式" class="headerlink" title="指令格式"></a>指令格式</h2><ol><li><p>零地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522201906602.png" alt="image-20240522201906602"></p></li><li><p>一地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202200028.png" alt="image-20240522202200028"></p></li><li><p>二、三地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202356914.png" alt="image-20240522202356914"></p></li><li><p>四地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202516755.png" alt="image-20240522202516755"></p></li></ol><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202625420.png" alt="image-20240522202625420"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203014082.png" alt="image-20240522203014082"></p><h2 id="扩展操作码指令格式"><a href="#扩展操作码指令格式" class="headerlink" title="扩展操作码指令格式"></a>扩展操作码指令格式</h2><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203441907.png" alt="image-20240522203441907"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203822773.png" alt="image-20240522203822773"></p><h2 id="指令寻址"><a href="#指令寻址" class="headerlink" title="指令寻址"></a>指令寻址</h2><h3 id="顺序寻址"><a href="#顺序寻址" class="headerlink" title="顺序寻址"></a>顺序寻址</h3><ul><li>顺序寻址即为一条一条往下执行，每次 <strong>PC</strong> 加  ‘1’  这里的  1 可以理解为 1 个指令字长， 实际加的值会因为指令长度、编址方式而不同</li></ul><h3 id="跳跃寻址"><a href="#跳跃寻址" class="headerlink" title="跳跃寻址"></a>跳跃寻址</h3><ul><li>由转移指令指出，类似于 <strong>goto</strong> 的使用，即无条件转移把 <strong>PC</strong> 中的内容改成转移指令给出的值</li></ul><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522205251877.png" alt="image-20240522205251877"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="第四章-指令系统"><a href="#第四章-指令系统" class="headerlink" title="第四章 指令系统"></a>第四章 指令系统</h1><h2 id="指令格式"><a href="#指令格式" class="headerlink" title="指令格式"></a>指令格式</h2><ol><li><p>零地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522201906602.png" alt="image-20240522201906602"></p></li><li><p>一地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202200028.png" alt="image-20240522202200028"></p></li><li><p>二、三地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202356914.png" alt="image-20240522202356914"></p></li><li><p>四地址指令<img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202516755.png" alt="image-20240522202516755"></p></li></ol><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522202625420.png" alt="image-20240522202625420"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203014082.png" alt="image-20240522203014082"></p><h2 id="扩展操作码指令格式"><a href="#扩展操作码指令格式" class="headerlink" title="扩展操作码指令格式"></a>扩展操作码指令格式</h2><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203441907.png" alt="image-20240522203441907"></p><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522203822773.png" alt="image-20240522203822773"></p><h2 id="指令寻址"><a href="#指令寻址" class="headerlink" title="指令寻址"></a>指令寻址</h2><h3 id="顺序寻址"><a href="#顺序寻址" class="headerlink" title="顺序寻址"></a>顺序寻址</h3><ul><li>顺序寻址即为一条一条往下执行，每次 <strong>PC</strong> 加  ‘1’  这里的  1 可以理解为 1 个指令字长， 实际加的值会因为指令长度、编址方式而不同</li></ul><h3 id="跳跃寻址"><a href="#跳跃寻址" class="headerlink" title="跳跃寻址"></a>跳跃寻址</h3><ul><li>由转移指令指出，类似于 <strong>goto</strong> 的使用，即无条件转移把 <strong>PC</strong> 中的内容改成转移指令给出的值</li></ul><p><img src="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/image-20240522205251877.png" alt="image-20240522205251877"></p><h2 id="数据寻址"><a href="#数据寻址" class="headerlink" title="数据寻址"></a>数据寻址</h2><h3 id="直接寻址-灵活性较差"><a href="#直接寻址-灵活性较差" class="headerlink" title="直接寻址 (灵活性较差)"></a>直接寻址 (灵活性较差)</h3><ul><li>给出的形式地址即为真实地址</li></ul><h3 id="间接寻址"><a href="#间接寻址" class="headerlink" title="间接寻址"></a>间接寻址</h3><p>+ </p>]]></content>
     
     
       
