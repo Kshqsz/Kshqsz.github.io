@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-22T12:46:43.690Z</updated>
+  <updated>2024-05-23T00:58:04.331Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaEE</title>
+    <link href="http://example.com/2024/05/23/JavaEE/"/>
+    <id>http://example.com/2024/05/23/JavaEE/</id>
+    <published>2024-05-23T00:12:31.000Z</published>
+    <updated>2024-05-23T00:58:04.331Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a>SpringMVC</h1><h2 id="数据库连接池"><a href="#数据库连接池" class="headerlink" title="数据库连接池"></a>数据库连接池</h2><ul><li>数据库连接池是应用程序和数据库之间的中间层，用于管理数据库连接的创建、分配和释放。它的主要目的是避免频繁地创建和销毁数据库连接，以提高系统的性能和效率。尤其是在处理大量请求时，可以有效提高访问效率。</li><li>一般使用 <strong>Druid</strong> 作为数据库连接池</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;SpringMVC&quot;&gt;&lt;a href=&quot;#SpringMVC&quot; class=&quot;headerlink&quot; title=&quot;SpringMVC&quot;&gt;&lt;/a&gt;SpringMVC&lt;/h1&gt;&lt;h2 id=&quot;数据库连接池&quot;&gt;&lt;a href=&quot;#数据库连接池&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="Java后端" scheme="http://example.com/categories/Java%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="JavaEE" scheme="http://example.com/tags/JavaEE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理上课笔记</title>
+    <link href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</id>
+    <published>2024-05-22T15:39:59.000Z</published>
+    <updated>2024-05-23T00:15:45.213Z</updated>
+    
+    
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机组成原理零散知识合集</title>
