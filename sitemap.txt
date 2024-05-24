@@ -15,9 +15,9 @@ http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/
 http://example.com/tags/JavaEE/
-http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/
 http://example.com/tags/Vue/
+http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/
 http://example.com/categories/Java%E5%90%8E%E7%AB%AF/
-http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/
-http://example.com/categories/%E7%AE%97%E6%B3%95/
 http://example.com/categories/%E5%89%8D%E7%AB%AF/
+http://example.com/categories/%E7%AE%97%E6%B3%95/
+http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/
