@@ -4,7 +4,6 @@ http://example.com/2024/05/27/Codeforces-Round-948-Div-2/
 http://example.com/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/
 http://example.com/2024/05/26/Codeforces-Round-947-Div-1-Div-2/
 http://example.com/2024/05/23/JavaEE/
-http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%9B%B6%E6%95%A3%E7%9F%A5%E8%AF%86%E5%90%88%E9%9B%86/
 http://example.com/2024/05/21/MybatisPlus/
 http://example.com/2024/05/22/Vue/
 http://example.com/2024/05/20/hello-world/
