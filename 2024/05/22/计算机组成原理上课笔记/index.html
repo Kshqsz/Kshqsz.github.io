@@ -5,13 +5,13 @@
 <meta property="og:site_name" content="Kshqsz&#39;s Blog">
 <meta property="og:description" content="第一章期末复习 下列部件的位数一定与机器字长相同的是 (B) I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器  B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结构，比如乘法器等。 拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于存储当前正在执行的指令。所">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/img/threecows.jpg">
+<meta property="og:image" content="http://example.com/img/computer%20organization-cover.jpg">
 <meta property="article:published_time" content="2024-05-22T15:39:59.000Z">
-<meta property="article:modified_time" content="2024-05-30T11:43:40.261Z">
+<meta property="article:modified_time" content="2024-06-05T13:50:46.951Z">
 <meta property="article:author" content="Kshqsz">
 <meta property="article:tag" content="计算机组成原理">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/img/threecows.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="http://example.com/img/computer%20organization-cover.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
   localSearch: undefined,
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-05-30 19:43:40'
+  postUpdate: '2024-06-05 21:50:46'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -154,7 +154,7 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Kshqsz's Blog" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Kshqsz's Blog"><span class="site-name">Kshqsz's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机组成原理上课笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-05-22T15:39:59.000Z" title="发表于 2024-05-22 23:39:59">2024-05-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-05-30T11:43:40.261Z" title="更新于 2024-05-30 19:43:40">2024-05-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机组成原理上课笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="第一章期末复习"><a href="#第一章期末复习" class="headerlink" title="第一章期末复习"></a>第一章期末复习</h1><ol>
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Kshqsz's Blog"><span class="site-name">Kshqsz's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机组成原理上课笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-05-22T15:39:59.000Z" title="发表于 2024-05-22 23:39:59">2024-05-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-05T13:50:46.951Z" title="更新于 2024-06-05 21:50:46">2024-06-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机组成原理上课笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="第一章期末复习"><a href="#第一章期末复习" class="headerlink" title="第一章期末复习"></a>第一章期末复习</h1><ol>
 <li><p>下列部件的位数一定与机器字长相同的是 (B)</p>
 <p>I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器</p>
 <blockquote>
@@ -820,7 +820,287 @@
 </ul>
 </li>
 </ol>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Kshqsz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/">http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Kshqsz's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></div><div class="post_share"><div class="social-share" data-image="/img/threecows.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/05/23/JavaEE/" title="JavaEE"><img class="cover" src="/img/JavaEE-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">JavaEE</div></div></a></div><div class="next-post pull-right"><a href="/2024/05/22/Vue/" title="Vue"><img class="cover" src="/img/Vue-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Vue</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" title="计算机组成原理"><img class="cover" src="/img/computer%20organization-cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-05-21</div><div class="title">计算机组成原理</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avator.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Kshqsz</div><div class="author-info__description">你<br>一会看我<br>一会看云<br>我觉得<br>你看我时很远<br>你看云时很近</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Kshqsz"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Kshqsz" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">1.</span> <span class="toc-text">第一章期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">2.</span> <span class="toc-text">寻址方式期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">3.</span> <span class="toc-text">第二章期末复习</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 950 (Div. 3)"/></a><div class="content"><a class="title" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)">Codeforces Round 950 (Div. 3)</a><time datetime="2024-06-04T04:32:04.000Z" title="发表于 2024-06-04 12:32:04">2024-06-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Educational Codeforces Round 166 (Rated for Div. 2)"/></a><div class="content"><a class="title" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)">Educational Codeforces Round 166 (Rated for Div. 2)</a><time datetime="2024-06-02T11:14:54.000Z" title="发表于 2024-06-02 19:14:54">2024-06-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 948 (Div. 2)"/></a><div class="content"><a class="title" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)">Codeforces Round 948 (Div. 2)</a><time datetime="2024-05-27T09:59:07.000Z" title="发表于 2024-05-27 17:59:07">2024-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 947 (Div.1 + Div.2)"/></a><div class="content"><a class="title" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)">Codeforces Round 947 (Div.1 + Div.2)</a><time datetime="2024-05-26T05:07:01.000Z" title="发表于 2024-05-26 13:07:01">2024-05-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/23/JavaEE/" title="JavaEE"><img src="/img/JavaEE-cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JavaEE"/></a><div class="content"><a class="title" href="/2024/05/23/JavaEE/" title="JavaEE">JavaEE</a><time datetime="2024-05-23T00:12:31.000Z" title="发表于 2024-05-23 08:12:31">2024-05-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Kshqsz</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+<p><br></p>
+<h1 id="第三章-期末复习"><a href="#第三章-期末复习" class="headerlink" title="第三章 期末复习"></a>第三章 期末复习</h1><ol>
+<li><p>某计算机主存空间为 4GB 字长为 32 位，按字节编址采用 32 位定长指字格式。若指令按字边界对齐存放，则程序计数器(PC) 和 指令寄存器(IR)的位数至少分别是 （B）</p>
+<blockquote>
+<p>B 正确，首先 $4GB = 2^{32}B$ ,  字长为 32 位 即 4B，说明一个指令占 4B，而 PC 的作用是定位到指令，而且这边是采用指令按字边界对齐，只需要每次变换找到下一条指令的位置即可，4GB / 4B = 2^30，所以可知 PC 只需要 30 位即可。</p>
+<p>而指令寄存器(IR) 存放的是正在执行的指令，由于每个指令都是 32 位，所以毫无疑问，IR 也是 32 位，故选B。</p>
+</blockquote>
+<ul>
+<li>A. 30, 30</li>
+<li>B. 30, 32</li>
+<li>C. 32, 30</li>
+<li>D. 32, 32</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列寄存器中，汇编语言程序员可见的是 （B）</p>
+<blockquote>
+<p>B 正确，见第二章第八题，程序员可以通过制定待执行指令的地址来设置 PC 的值。</p>
+</blockquote>
+<ul>
+<li>A. 存储器地址寄存器(MAR)</li>
+<li>B. 程序计数器(PC)</li>
+<li>C. 存储器数据寄存器(MDR)</li>
+<li>D. 指令寄存器(IR)</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>冯·诺依曼计算机中指令和数据均以二进制形式存放在存储器中，CPU 区分它们的依据是（C）</p>
+<blockquote>
+<p>C 正确，CPU 可以根据指令周期的不同阶段来区分是指令还是数据，通常在取指令阶段取出的是指令，其他阶段(分析取数阶段，执行阶段)取出的是数据。</p>
+</blockquote>
+<ul>
+<li>A. 指令操作码的译码结果</li>
+<li>B. 指令和数据的寻址方式</li>
+<li>C. 指令周期的不同阶段</li>
+<li>D. 指令和数据所在的存储单元</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列关于程序计数器(PC)的叙述中，错误的是（C）</p>
+<blockquote>
+<p>C 错误，当执行到转移指令时，对于无条件转移或调用、返回等指令，则PC的值直接修改为目标指令地址；对于条件转移(分支)指令，则必须根据前面指令或当前指令执行的结果标志，确定是把转移目标地址还是把下条指令地址送到PC。这边说总是，则不对。</p>
+</blockquote>
+<ul>
+<li>A. PC 中总是存指令地址</li>
+<li>B. PC 的值由 CPU 在执行指令过程中进行修改</li>
+<li>C. 转移指令时，PC 的值总是修改为转移目标指令的地址</li>
+<li>D. PC 的位数一般和存储器地址寄存器(MAR)的位数一样</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在一次无条件跳转指令的指令周期内，PC 的值被修改的次数是（B）</p>
+<blockquote>
+<p>B 正确，取指周期结束后，PC 的值 + 1；执行周期中，PC 值修改为要跳转的地址，故 PC 被修改两次。</p>
+</blockquote>
+<ul>
+<li>A. 1</li>
+<li>B. 2</li>
+<li>C. 3</li>
+<li>D. 无法确定</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>数据寄存器中既能存放源操作数，又能存放结果的是 （C）</p>
+<blockquote>
+<p>C 正确，累加器内容可以作为源操作数，也可以暂时存放 ALU 运算的结果信息。</p>
+</blockquote>
+<ul>
+<li>A. 锁存器</li>
+<li>B. 堆栈</li>
+<li>C. 累加器</li>
+<li>D. 触发器</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>指令译码器是对 （B）进行译码的</p>
+<blockquote>
+<p>B 正确，指令的操作码字段表示该指令进行什么性质的操作，而指令译码器就是来翻译操作码，实现相关操作。</p>
+<p>指令由 操作码 + 操作数组成。</p>
+</blockquote>
+<ul>
+<li>A. 整条指令</li>
+<li>B. 指令的操作码字段</li>
+<li>C. 指令的地址</li>
+<li>D. 指令的操作数字段</li>
+</ul>
+<p><br></p>
+</li>
+<li><blockquote>
+<p>时钟周期：计算机中最小的时间单位，等于 CPU 主频的倒数。一个时钟周期内，CPU 仅完成一个最基本的动作</p>
+<p>机器周期：机器周期又叫CPU周期。由若干时钟周期可以组成一个机器周期，机器周期就是要完成一个比较完整的子工作。计算机中为了方便管理，常把一条指令 的执行过程划分为若干个阶段（如取指、间址、执行、<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=中断&amp;spm=1001.2101.3001.7020">中断</a>等）每一阶段完成一个基本操作。注意：每一个基本操作都是由若干CPU最基本的动作组成。这个基本操作所需要的时间称为机器周期，则机器周期由若干个时钟周期组成。</p>
+<p>指令周期：从取指开始到执行完成该指令所需要的全部时间。指令周期包含若干机器周期。</p>
+<p><strong>指令周期&gt;机器周期&gt;时钟周期</strong></p>
+</blockquote>
+<p><br></p>
+</li>
+<li><p>在计算机体系结构中，CPU内部包括程序计数器PC、存储器数据寄存器MDR、指令寄存器IR和存储器地址寄存器MAR等。若CPU要执行的指令为:MOV R0，#100(即将数值100传送到寄存器R0中)，则CPU首先要完成的操作是 （C）</p>
+<blockquote>
+<p>C正确，无论运行什么类型的指令，CPU首先需要取指令，取指令阶段的第一个操作就是将指令地址(程序计数器PC中的内容)送往存储器地址寄存器。 取指周期完成的微操作序列是公共的操作，与具体指令无关，取指公共操作如下: (1) 将程序计数器PC中的内容送至存储器地址寄存器MAR，记作(PC)→MAR; (2) 向主存发读命令，记作Read; (3)从主存中取出的指令送到存储器数据寄存器MDR，记作M(MAR)→MDR; (4)将MDR的内容送至指令寄存器IR中，记作(MDR)→IR; (5)将PC的内容递增，为取下一条指<br>令做好准备，记作(PC)+1→PC。题于中虽然给出了一条具体的指令“MOV R0，#100”，实际上CPU首先要完成的操作是取指令，与具体指令是没有关系的。</p>
+</blockquote>
+<ul>
+<li>A. 100→R0</li>
+<li>B. 100→MDR</li>
+<li>C. PC→MAR</li>
+<li>D. PC→IR</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>取指令操作 ( )</p>
+<blockquote>
+<p>这题不确定答案，知道答案可以和我联系。</p>
+</blockquote>
+<ul>
+<li>A. 受上一条指令操作码的控制</li>
+<li>B. 受当前指令操作码的控制</li>
+<li>C. 不受指令操作码的控制</li>
+<li>D. 受运算器中的条件码(或标志码)的控制</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>有关指令周期叙述，错误的是（B）</p>
+<blockquote>
+<p>B 错误，很明显乘法比加法复杂，指令周期肯定更长一些。这题主要学习其他正确的选项。</p>
+</blockquote>
+<ul>
+<li>A. 指令周期的第一个阶段是取指令阶段</li>
+<li>B. 乘法指令和加法指令的指令周期一样长</li>
+<li>C. 一个指令周期由若干个机器周期或时钟周期组成</li>
+<li>D. 单周期处理器的指令周期就是一个时钟周期。</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在计算机中，存放微指令的控制存储器隶属于（D）</p>
+<blockquote>
+<p>C正确，CPU内部有一个控制存储器,里面存放着各种程序指令对应的微程序段。当CPU执行一句程序指令时,会从控制存储器里取一段与该程序指令对应的微程序解释执行,从而完成该程序语句的功能。CPU = 控制器 + 运算器 + (Cache)</p>
+</blockquote>
+<ul>
+<li>A. 外存</li>
+<li>B. 高速缓存</li>
+<li>C. 内存</li>
+<li>D. CPU</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在微程序控制中，操作控制信号将编成（A) 形式</p>
+<blockquote>
+<p>A 正确，微程序设计的概念是将一条机器指令编写成一个微程序,每一个微程序包含若干条微指令,每一条微指令对应一个或几个微操作命令。然后把这些微程序存放到一个控制存储器中,用寻找用户程序机器指令的方法来寻找每个微程序中的微命令</p>
+</blockquote>
+<ul>
+<li>A. 微指令</li>
+<li>B. 微地址</li>
+<li>C. 操作码</li>
+<li>D. 程序</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列说法中正确的是（D）</p>
+<blockquote>
+<p>D 正确，一条微指令放在控制存储器的一个单元中。</p>
+<p>A 错误，硬布线控制器采用硬件电路，速度快，但设计难度复杂，成本高。而微程序控制器速度慢，但灵活性高；</p>
+<p>B 错误，控制存储器采用的是 ROM</p>
+<p>C 错误，微指令计数器决定微指令执行顺序，指令执行顺序由 PC 决定。</p>
+</blockquote>
+<ul>
+<li>A. 采用微程序控制器是为了提高速度</li>
+<li>B. 控制存储器由高速 RAM 电路组成</li>
+<li>C. 微指令计数器决定指令执行顺序</li>
+<li>D. 一条微指令放在控制存储器的一个单元中。</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>以下关于CPU的叙述中，错误的是 (B)</p>
+<blockquote>
+<p>B 错误，CPU的功能主要包括程序控制、操作控制、时间控制和数据处理。CPU主要由运算器、控制器、寄存器组和内部总线等部件组成。CPU产生每条指令的操作信号并将操作信号送往相应的部件进行控制，因此说法A正确。</p>
+<p> CPU中的控制器用于控制整个CPU的工作，它决定了计算机运行过程中的自动化，因此说法C正确。 </p>
+<p>程序计数器PC具有寄存信息和计数两种功能，又称为指令计数器。程序的执行分为两种情况，顺序执行和转移执行。在程序执行前，将程序的起始地址送入PC该地址在程序加载到内存时确定，执行指令时，CPU将自动修改PC的内容，当指令按照顺序执行时，PC加1。如果是转移指令，后继指令的地址根据当前指令的地址加上一个向前或向后转移的位移量得到。因此PC没有临时存储算术/逻辑运算结果的功能。因此说法B错误。</p>
+<p>CPU中的控制器包括指令寄存器(IR)、程序计数器(PC)、地址寄存器(AR)和指令译码器(ID)。因此说法D正确。 综上所述，答案为B。</p>
+</blockquote>
+<ul>
+<li>A. CPU产生每条指令的操作信号并将操作信号送往相应的部件进行控制</li>
+<li>B. 程序计数器PC除了存放指令地址，也可以临时存储算术/逻辑运算结果</li>
+<li>C. CPU中的控制器决定计算机运行过程的自动化</li>
+<li>D. 指令译码器是CPU控制器中的部件</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在微程序控制器中,机器指令与微指令的关系是 （B）</p>
+<blockquote>
+<p>B 正确，一条机器指令的功能通常用许多条微指令组成的序列来实现，这个微指令序列称为微程序。</p>
+</blockquote>
+<ul>
+<li>A. 每一条机器指令由一条微指令来执行</li>
+<li>B. 一条机器指令由一段用微指令编成的微程序来解释执行</li>
+<li>C. 一段机器指令组成的程序可由一个微程序来执行</li>
+<li>D. 每一条微指令由一条机器指令来解释执行</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在微程序控制的计算机中，若要修改指令系统，只要（D）</p>
+<blockquote>
+<p>D 正确，在微程序控制的计算机中，若要修改指令系统，只需修改相应指令的微程序即可。这些微程序都存放在控制存储器中，所以只需改变控制存储器的内容。故选择 D</p>
+<p>拓展：微程序控制器的设计思想和组合逻辑控制器的设计思想截然不同。它具有设计规整、调试维修以及更改、扩充指令方便的优点，易于实现自动化设计，已成为当前控制器的主流。但是，由于它增加了一级控切制存储器，所以指令执行速度比组合逻辑控制器慢。</p>
+</blockquote>
+<ul>
+<li>A. 改变时序控制方式</li>
+<li>B. 改变微指令格式</li>
+<li>C. 增加微指令个数</li>
+<li>D. 改变控制存储器的内容</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列关于并行微程序控制器的说法中,正确的是 (A)。</p>
+<blockquote>
+<p>A 正确，并行微程序控制器中，在执行现行微指令的同时，取下一条微指令，故选择 A</p>
+</blockquote>
+<ul>
+<li>A. 现行微指令的执行与取下一条微指令的操作并行</li>
+<li>B. 现行微指令的执行与取下一条微指令的操作串行</li>
+<li>C. 两条或更多微指令的执行在时间上并行</li>
+<li>D. 两条或更多微指令的取微指令操作在时间上并行</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>设指令由取指，分析，执行 3 个子部件完成，并且每个子部件的时间均为 $\Delta t$ ，若采用常规标量单流水线处理机 (即处理机的度为1)，连续执行 12 条指令，共需 (B)</p>
+<blockquote>
+<p>B 正确，下图示意的是 16 条指令的流水线图，可以从中找到 12 处为 $14\Delta t$ </p>
+<p><img src="/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/image-20240605213243288.png" alt="image-20240605213243288"></p>
+<p>拓展： 若采用度为 4 的处理机，执行 16 条指令，需要时间为 $6\Delta t$ ，下图示意</p>
+<p><img src="/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/image-20240605213547459.png" alt="image-20240605213547459"></p>
+</blockquote>
+<ul>
+<li>A. $12 \Delta t$ </li>
+<li>B. $14\Delta t$</li>
+<li>C. $16\Delta t$</li>
+<li>D. $18\Delta t$​</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>流水计算机中，下列语句发生的数据相关类型是（A）</p>
+<p>ADD, R1, R2, R3，即 (R2) + (R3) $\rightarrow$ R1</p>
+<p>ADD, R4, R1, R5，即 (R1) + (R5) $\rightarrow $​​​ R4</p>
+<blockquote>
+<p>A 正确，在这两条指令中，都对 R1 进行操作，前面对 R1 写操作，后面对 R1 读操作，因此发生的是写后读。选择 A</p>
+</blockquote>
+<ul>
+<li>A. 写后读</li>
+<li>B. 读后写</li>
+<li>C. 写后写</li>
+<li>D. 读后读</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列几项中,流水线相关包括 (C)。I.结构相关 II.数据相关 III.指令相关 IV.控制相关</p>
+<blockquote>
+<p>C正确，流水线相关包括:结构相关、数据相关和控制相关。</p>
+<p>其中,结构相关是由于不同指令欲同时使用一个部件而造成的</p>
+<p>数据相关是指后面指令欲使用前面指令的结果时该结果还没有产生</p>
+<p>控制相关是指指令执行的顺序发生改变而引起的流水线停顿以各类转移指令、分支指令以及中断或异常的出现都会引起控制相关</p>
+</blockquote>
+<ul>
+<li>A. I, II, III, IV</li>
+<li>B. I, II, III</li>
+<li>C. I, II, IV</li>
+<li>D. I, III, IV</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列关于动态流水线!和超标量处理器的说法中,错误的是(D)。</p>
+<blockquote>
+<p>D 错误，超标量技术指的是采用更多指令执行部件来构成多条流水线的技术，而不是采用更多流水段。</p>
+</blockquote>
+<ul>
+<li>A. 超标量处理器中一定有多个不同的指令执行单元</li>
+<li>B. 动态流水线执行指令的顺序不一定是输入指令的顺序</li>
+<li>C. 超标量处理器不一定都采用动态流水线</li>
+<li>D. 超标量技术是指采用更多流水段个数的流水线技术</li>
+</ul>
+<p><br></p>
+</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Kshqsz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/">http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Kshqsz's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></div><div class="post_share"><div class="social-share" data-image="/img/computer%20organization-cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/05/23/JavaEE/" title="JavaEE"><img class="cover" src="/img/JavaEE-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">JavaEE</div></div></a></div><div class="next-post pull-right"><a href="/2024/05/22/Vue/" title="Vue"><img class="cover" src="/img/Vue-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Vue</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" title="计算机组成原理"><img class="cover" src="/img/computer%20organization-cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-05-21</div><div class="title">计算机组成原理</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avator.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Kshqsz</div><div class="author-info__description">你<br>一会看我<br>一会看云<br>我觉得<br>你看我时很远<br>你看云时很近</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Kshqsz"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Kshqsz" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">1.</span> <span class="toc-text">第一章期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">2.</span> <span class="toc-text">寻址方式期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">3.</span> <span class="toc-text">第二章期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text">第三章 期末复习</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 950 (Div. 3)"/></a><div class="content"><a class="title" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)">Codeforces Round 950 (Div. 3)</a><time datetime="2024-06-04T04:32:04.000Z" title="发表于 2024-06-04 12:32:04">2024-06-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Educational Codeforces Round 166 (Rated for Div. 2)"/></a><div class="content"><a class="title" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)">Educational Codeforces Round 166 (Rated for Div. 2)</a><time datetime="2024-06-02T11:14:54.000Z" title="发表于 2024-06-02 19:14:54">2024-06-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 948 (Div. 2)"/></a><div class="content"><a class="title" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)">Codeforces Round 948 (Div. 2)</a><time datetime="2024-05-27T09:59:07.000Z" title="发表于 2024-05-27 17:59:07">2024-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 947 (Div.1 + Div.2)"/></a><div class="content"><a class="title" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)">Codeforces Round 947 (Div.1 + Div.2)</a><time datetime="2024-05-26T05:07:01.000Z" title="发表于 2024-05-26 13:07:01">2024-05-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/23/JavaEE/" title="JavaEE"><img src="/img/JavaEE-cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JavaEE"/></a><div class="content"><a class="title" href="/2024/05/23/JavaEE/" title="JavaEE">JavaEE</a><time datetime="2024-05-23T00:12:31.000Z" title="发表于 2024-05-23 08:12:31">2024-05-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Kshqsz</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
