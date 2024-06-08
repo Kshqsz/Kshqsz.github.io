@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>计算机组成原理上课笔记 | Kshqsz's Blog</title><meta name="author" content="Kshqsz"><meta name="copyright" content="Kshqsz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="第一次 期末复习 下列部件的位数一定与机器字长相同的是 (B) I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器  B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结构，比如乘法器等。 拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于存储当前正在执行的指令。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>计算机组成原理上课笔记 | Kshqsz's Blog</title><meta name="author" content="Kshqsz"><meta name="copyright" content="Kshqsz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="第一次 期末复习 下列部件的位数一定与机器字长相同的是 (B) I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器  B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结果，比如乘法器，这也需要与机器字长相同等。 拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计算机组成原理上课笔记">
 <meta property="og:url" content="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Kshqsz&#39;s Blog">
-<meta property="og:description" content="第一次 期末复习 下列部件的位数一定与机器字长相同的是 (B) I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器  B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结构，比如乘法器等。 拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于存储当前正在执行的指令。">
+<meta property="og:description" content="第一次 期末复习 下列部件的位数一定与机器字长相同的是 (B) I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器  B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结果，比如乘法器，这也需要与机器字长相同等。 拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/computer%20organization-cover.jpg">
 <meta property="article:published_time" content="2024-05-22T15:39:59.000Z">
-<meta property="article:modified_time" content="2024-06-06T14:27:51.813Z">
+<meta property="article:modified_time" content="2024-06-08T15:00:45.854Z">
 <meta property="article:author" content="Kshqsz">
 <meta property="article:tag" content="计算机组成原理">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-06-06 22:27:51'
+  postUpdate: '2024-06-08 23:00:45'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -154,11 +154,11 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Kshqsz's Blog" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Kshqsz's Blog"><span class="site-name">Kshqsz's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机组成原理上课笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-05-22T15:39:59.000Z" title="发表于 2024-05-22 23:39:59">2024-05-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-06T14:27:51.813Z" title="更新于 2024-06-06 22:27:51">2024-06-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机组成原理上课笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="第一次-期末复习"><a href="#第一次-期末复习" class="headerlink" title="第一次 期末复习"></a>第一次 期末复习</h1><ol>
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Kshqsz's Blog"><span class="site-name">Kshqsz's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 爱好</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机组成原理上课笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-05-22T15:39:59.000Z" title="发表于 2024-05-22 23:39:59">2024-05-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-08T15:00:45.854Z" title="更新于 2024-06-08 23:00:45">2024-06-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机组成原理上课笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="第一次-期末复习"><a href="#第一次-期末复习" class="headerlink" title="第一次 期末复习"></a>第一次 期末复习</h1><ol>
 <li><p>下列部件的位数一定与机器字长相同的是 (B)</p>
 <p>I. ALU  II. 指令寄存器  III.通用寄存器  IV.浮点寄存器</p>
 <blockquote>
-<p>B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结构，比如乘法器等。</p>
+<p>B 正确，首先 ALU  是用来进行算术运算的主要部件，一定与机器字长相同，通用寄存器则可以用来保存中间计算结果，比如乘法器，这也需要与机器字长相同等。</p>
 <p>拓展：指令寄存器（Instruction Register，简称IR）是计算机中的一种特殊寄存器，用于存储当前正在执行的指令。所以其位数       通常与计算机体系结构和指令集架构有关，与指令长度，寻址方式等密切相关。</p>
 <p>​       浮点寄存器（Floating Point Register）是计算机中用来存储浮点数（floating-point numbers）的寄存器。通常需要更多       位数进行拓展以提高计算精度。</p>
 </blockquote>
@@ -297,13 +297,14 @@
 <p><strong>地址总线</strong><br>（1）CPU是通过地址总线来指定存储单元的。</p>
 <p>（2）地址总线决定了cpu所能访问的最大内存空间的大小。eg: 10根地址线能访问的最大的内存为1024位二进制数据（1024个内存单元）</p>
 <p>（3）地址总线是地址线数量之和。</p>
+<p>  (4 )   地址总线是计算机系统中用于传输地址信息的总线，它与存储器和I/O设备进行通信，确定要读取或写入的位置。通过地址总线传输的地址码，计算机系统可以准确定位存储器或I/O设备的位置，实现数据的读写操作。</p>
 <p><strong>控制总线</strong><br>（1）CPU通过控制总线对外部器件进行控制。</p>
 <p>（2）控制总线的宽度决定了CPU对外部器件的控制能力。</p>
 <p>（3）控制总线是控制线数量之和。</p>
 <p><strong>最后总结如下：</strong> </p>
 <p><strong>地址总线的宽度决定CPU的寻址能力；</strong> </p>
 <p><strong>数据总线的宽度决定CPU与其他元器件一次最大传送的数据量；</strong></p>
-<p> <strong>控制总线决定CPU对其他元器件的控制能力。</strong></p>
+<p><strong>控制总线决定CPU对其他元器件的控制能力。</strong></p>
 </blockquote>
 <ul>
 <li>A. 通用寄存器一般为 32 位</li>
@@ -910,7 +911,7 @@
 </li>
 <li><blockquote>
 <p>时钟周期：计算机中最小的时间单位，等于 CPU 主频的倒数。一个时钟周期内，CPU 仅完成一个最基本的动作</p>
-<p>机器周期：机器周期又叫CPU周期。由若干时钟周期可以组成一个机器周期，机器周期就是要完成一个比较完整的子工作。计算机中为了方便管理，常把一条指令 的执行过程划分为若干个阶段（如取指、间址、执行、<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=中断&amp;spm=1001.2101.3001.7020">中断</a>等）每一阶段完成一个基本操作。注意：每一个基本操作都是由若干CPU最基本的动作组成。这个基本操作所需要的时间称为机器周期，则机器周期由若干个时钟周期组成。</p>
+<p>机器周期：机器周期又叫CPU周期。由若干时钟周期可以组成一个机器周期，机器周期就是要完成一个比较完整的子工作。计算机中为了方便管理，常把一条指令 的执行过程划分为若干个阶段（如取指、间址、执行、中断等）每一阶段完成一个基本操作。注意：每一个基本操作都是由若干CPU最基本的动作组成。这个基本操作所需要的时间称为机器周期，则机器周期由若干个时钟周期组成。</p>
 <p>指令周期：从取指开始到执行完成该指令所需要的全部时间。指令周期包含若干机器周期。</p>
 <p><strong>指令周期&gt;机器周期&gt;时钟周期</strong></p>
 </blockquote>
@@ -1123,7 +1124,7 @@
 <blockquote>
 <p>B正确，</p>
 <p>I II 都很明显，肯定增加的 </p>
-<p> III <a target="_blank" rel="noopener" href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://baike.baidu.com/item/突发传输">突发传输</a>一般表示的是两个设备之间进行数据传送的一种模式，也可将其称为突发模式下的数据传输。而突发（Burst）是指在同一行中相邻的存储单元连续进行数据传输的方式，连续传输的周期数就是突发长度（Burst Lengths，简称BL）。在突发传输模式下，多个数据单元当做一个单元（相当一个数据块）来传送，从而提高了传输效率。 </p>
+<p> III 突发传输一般表示的是两个设备之间进行数据传送的一种模式，也可将其称为突发模式下的数据传输。而突发（Burst）是指在同一行中相邻的存储单元连续进行数据传输的方式，连续传输的周期数就是突发长度（Burst Lengths，简称BL）。在突发传输模式下，多个数据单元当做一个单元（相当一个数据块）来传送，从而提高了传输效率。 </p>
 <p> IV 地址数据线复用并非提高而是降低，毕竟同一时间你还得传地址过去，等价的数据传输效率就低了。只是减少了成本。</p>
 </blockquote>
 <ul>
@@ -1150,7 +1151,568 @@
 </ul>
 <p><br></p>
 </li>
-<li></li>
+<li><p>下列选项中的英文缩写均为总线标准的是 ( D)</p>
+<blockquote>
+<p>D 正确，</p>
+<p>A. PCI、<strong>CRT</strong>、USB、EISA      </p>
+<p>B. ISA、<strong>CPI</strong>、VESA、EISA    </p>
+<p>C.  ISA、<strong>SCSI、RAM、MIPS</strong> </p>
+<p>标黑的是不对的</p>
+<p>目前典型的总线标准有： </p>
+<p>ISA、EISA、VESA、PCI、PCI-Express、AGP、USB、RS-232C等。  </p>
+<p>微型机总线标准有下面几种：</p>
+<p>ISA总线、EISA总线、MCA总线、VESA局部总线、PCI总线、AGP总线、USB总线、Alpha EV6总线、PCI局部总线、NGIO总线、IEEE1394、Future I/O总线</p>
+</blockquote>
+<ul>
+<li><p>A. PCI, CRT, USB, EISA</p>
+</li>
+<li><p>B. ISA, CPI, VESA, EISA</p>
+</li>
+<li><p>C. ISA, SCSI, RAM, MIPS</p>
+</li>
+<li><p>D. ISA, EISA, PCI, PCI-Express</p>
+</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列关于 USB 总线特性的描述中，错误的是 (D)</p>
+<blockquote>
+<p>D 错误，USB的特点有：（1）即插即用 （2）热插拔 （3）很强的连接能力，采用菊花链形式将总舵外设备连接起来 （4）有很好的扩展性，一个USB控制可扩充高达127个外部USB设备（ 5）告诉传输 速率可达480Mb/s （6）串行总线，一次只能传输一位数据</p>
+</blockquote>
+<ul>
+<li>A. 实现外设的即插即用和热插拔</li>
+<li>B. 可通过级联方式连接多台外设</li>
+<li>C. 是一种通信总线，可连接不同外设</li>
+<li>D. 同时可传输 2 位数据，数据传输率高</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>系统总线中，划分数据线，地址线和控制线的根据是（C）</p>
+<blockquote>
+<p>C 正确，系统总线按传送信息的不同划分位地址总线，数据总线和控制总线。</p>
+</blockquote>
+<ul>
+<li><p>A. 总线所处的位置</p>
+</li>
+<li><p>B. 总线的传输方向</p>
+</li>
+<li><p>C. 总线的传输内容</p>
+</li>
+<li><p>D. 总线的控制方式</p>
+</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>系统总线中地址线的作用是(C)</p>
+<blockquote>
+<p>C正确，地址线作用即为用于指定主存单元和I/O设备接口电路的地址</p>
+</blockquote>
+<ul>
+<li>A. 用于选择主存单元地址</li>
+<li>B.用于选择进行信息传输的设备</li>
+<li>C.用于指定主存单元和I/O设备接口电路的地址</li>
+<li>D.用于传送主存物理地址和逻辑地址</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在系统总线中，地址总线的位数（B）</p>
+<blockquote>
+<p>B 正确，</p>
+<p>地址总线的位数与存储单元个数有关，地址总线的位数越长，可访问的存储单元个数就越多。</p>
+<p>系统总线按传送信息的不同可以细分为:地址总线、数据总线和控制总线</p>
+<p>地址总线由单方向的多根信号线组成，用于CPU向主存、外设传输地址信息</p>
+<p>数据总线由双方向的多根信号线组成，CPU可以沿这些线从主存或外设读入数据，电可以沿这些线向主存或外设送出数据;</p>
+<p>控制总线上传输的是控制信息，包括CPU送出的控制命令和主存(或外设)返回CPU的反馈信号。</p>
+<p>地址总线宽度决定了CPU可以访问的最大的物理地址空间，简单地说就是CPU到底能够使用多大容量的主存。</p>
+<p>例如，32位地址线，可寻址的最大容量为2^32=4096MB(4GB)。</p>
+</blockquote>
+<ul>
+<li>A. 与机器字长有关</li>
+<li>B. 与存储单元个数有关</li>
+<li>C. 与存储字长有关</li>
+<li>D. 与存储器带宽有关</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>挂接在总线上的多个部件 (B)</p>
+<blockquote>
+<p>B 正确，总线是一组能为多个部件分时共享的信息传送线，用来连接多个部件并为之提供信息交换通路。所谓共享，指连接到总线上的所有部件都可通过它传递信息；分时性指某一时刻只允许一个部件将数据发送到总线上。因此，共享是通过分时实现的。</p>
+<p>可以这么理解：可以一个人讲话，很多人听，但如果多个人同时说话就会很混乱，所以必须分时发送数据即，每次一个人说话传递信息，同时从总线接受数据，相当于听一个总览者讲话，下面人都可以同时听到。</p>
+</blockquote>
+<ul>
+<li>A、只能分时向总线发送数据，并只能分时从总线接收数据</li>
+<li>B、只能分时向总线发送数据，但可同时从总线接收数据</li>
+<li>C、可同时向总线发送数据，并同时从总线接收数据</li>
+<li>D、可同时向总线发送数据，但只能分时从总线接收</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>间接寻址第一次访问内存所得到的是操作数的有效地址，该地址经系统总线的 (A) 传送到 CPU。</p>
+<blockquote>
+<p>A 正确，注意是第一次访问内存，由于是访问存储器得到的内容．所以是存储单元存放的数据，应该由数据总线传送给CPU。CPU经寻址方式判断后，再通过地址总线送给存储器，为读取操作数做准备。</p>
+</blockquote>
+<ul>
+<li><p>A. 数据总线</p>
+</li>
+<li><p>B. 地址总线</p>
+</li>
+<li><p>C. 控制总线</p>
+</li>
+<li><p>D. 用户程序</p>
+</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在单机系统中，三总线结构计算机的总线系统组成是（C）</p>
+<blockquote>
+<p>C 正确，在单机系统中,三总线结构的计算机的总线系统由系统总线、内存总线、I/O总线组成。</p>
+<p>其中,系统总线用于CPU和内存之间传送地址、数据和控制信息;</p>
+<p>内存总线使内存和高速外设之间能够直接传送数据</p>
+<p>I/O总线提供CPU和各类外设之间的通信</p>
+<p>拓展：三总线结构也可以由内存总线，I / O总线 和 DMA（<strong>直接内存访问</strong>（DMA，Direct Memory Access） 总线组成</p>
+<p><img src="/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/image-20240608191723113.png" alt="image-20240608191723113"></p>
+</blockquote>
+<ul>
+<li>A. 片内总线，系统总线和通信总线</li>
+<li>B. 数据总线，地址总线和控制总线</li>
+<li>C. 系统总线，主存总线和 I / O 总线</li>
+<li>D. ISA总线，VESA 总线 和 PCI 总线</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>微机中控制总线上完整传输的信号有（B）</p>
+<p>I 存储器和 I / O 设备的地址码 ; II 所有存储器和 I / O 设备的时序信号和控制信号 ; III 来自 I / O 设备和存储器的响应信号</p>
+<blockquote>
+<p>B 正确，CPU 的控制总线提供的信号包括时序信号，I / O 设备和存储器的响应信号等。 I 很明显是由地址总线传送的</p>
+</blockquote>
+<ul>
+<li>A. I</li>
+<li>B. II, III</li>
+<li>C. II</li>
+<li>D. I, II, III</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>总线的从设备指的是（B）</p>
+<blockquote>
+<p>B 正确，总线设备可分为主设备和从设备，掌握总线控制权的设备是总线主设备，而被主设备访问的设备是从设备</p>
+</blockquote>
+<ul>
+<li>A. 申请作为从设备的设备</li>
+<li>B. 被主设备访问的设备</li>
+<li>C. 掌握总线控制权的设备</li>
+<li>D. 总线源设备</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在集中式总线控制中，（C）方式响应时间最快</p>
+<blockquote>
+<p>C 正确，独立请求方式的响应时间最快，然而这是以增加控制线数和硬件电路为代价的。</p>
+</blockquote>
+<ul>
+<li>A. 链式查询</li>
+<li>B. 计数器定时查询</li>
+<li>C. 独立请求</li>
+<li>D. 不能确定哪一种</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在链式查询方式下，若有 n 个设备，则 (B)</p>
+<blockquote>
+<p>B 正确，链式查询方式采用菊花链的方式连接所有具有总线使用能力的器件，各设备分别共有一根总线信号。</p>
+</blockquote>
+<ul>
+<li><p>A. 有 n 条总线请求</p>
+</li>
+<li><p>B. 共有一条总线请求</p>
+</li>
+<li><p>C. 有 n - 1 条总线请求信号</p>
+</li>
+<li><p>D. 无法确定</p>
+</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>为了对 n 个设备使用总线的请求进行仲裁,  在独立请求方式中需要使用的控制线数量为 (D)</p>
+<blockquote>
+<p>D 正确，</p>
+<p>对于n个设备而言,链式查询方式需要3条控制线;</p>
+<p>计数器定时查询方式需要 $2 + \lfloor log_2n \rfloor$] 条控制线;</p>
+<p>而独立请求方式需要 2n+1 条控制线,包括 n 条总线请求控制线、n 条总线批准控制线和1条总线忙控制线。</p>
+</blockquote>
+<ul>
+<li>A. n</li>
+<li>B. 3</li>
+<li>C. $2 + \lfloor log_2n \rfloor$</li>
+<li>D. 2n + 1</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列计算机总线属于串行总线的是（B）</p>
+<blockquote>
+<p>B 正确，</p>
+<p>1394是高性能的串行总线。</p>
+<p>IEEE-1394构建在菊花链或树状的拓扑结构上的，最新的高性能外部总线设计的趋势是使用<strong>串行结构</strong>，这样可以通过一根导线一次发送一位数据，而无须担心数据的到达时间，如IEEE-1394端口(使用高速串行技术)<br>选项A、C、D均属于并行总线。</p>
+</blockquote>
+<ul>
+<li>A. PCI</li>
+<li>B. 1394</li>
+<li>C. EISA</li>
+<li>D. ISA</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>异步传输方式是指没有统一的时钟,也没有固定的时间间隔,完全依靠传送双方相互制约的“握手信号”来实<br>现定时控制。在下列各种情况中,最应采用异步传输方式的是(A)</p>
+<blockquote>
+<p>A 正确，</p>
+<p>I/0接口和打印机之间的速度差异较大,应采用异步传输方式来提高效率。异步定时方式能保证两个工作<br>速度相差很大的部件或设备之间可靠地进行信息交换</p>
+</blockquote>
+<ul>
+<li>A. I/O接口与打印机交换信息</li>
+<li>B. CPU与主存交换信息</li>
+<li>C. CPU和总线交换信息</li>
+<li>D. CPU内部的各个部件</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列选择种，不属于 I/O 接口的是（A）</p>
+<blockquote>
+<p>A 正确，</p>
+<p>A 不属于 I/O 接口。磁盘驱动器是用于读写磁盘上存储数据的设备。虽然它与I/O操作相关，但磁盘驱动器本身是存储设备。</p>
+<p>B 属于 I/O 接口。打印机适配器是一种用于连接计算机和打印机之间的接口。它负责转换计算机系统中的数据格式和打印机所需的格式，并管理数据的传输和控制打印机操作。</p>
+<p>C 属于 I/O 接口。网络控制器是用于连接计算机系统与计算机网络之间的接口。它负责协调和管理数据在计算机和网络之间的传输，执行网络协议和管理网络连接。</p>
+<p>D 属于 I/O 接口。可编程中断控制器是计算机系统中的一种设备，用于管理和处理系统中的中断信号。它负责识别中断来源、优先级和中断处理程序的分发。</p>
+</blockquote>
+<ul>
+<li>A. 磁盘驱动器</li>
+<li>B. 打印机适配器</li>
+<li>C. 网络控制器</li>
+<li>D. 可编程中断控制器</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列选择中，在 I/O 总线的数据线上传输的信息包括（D）</p>
+<p>I. I/O 接口中的命令字 II. I/O 接口中的状态字 III. 中断类型号</p>
+<blockquote>
+<p>D 正确，在 I/O 总线的数据线上传输的信息包括 I/O 接口中的命令字，状态字以及真正的数据，而中断类型号也是通过数据线传输的。</p>
+</blockquote>
+<ul>
+<li>A. I, II</li>
+<li>B. I, III</li>
+<li>C. II, III</li>
+<li>D. I, II, III</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列有关I/0接口的叙述中错误的是 (D)</p>
+<blockquote>
+<p>D错误，采用统一编码方式，存储器和 I/O 端口共用统一的地址空间，不需要专用的 I/O 指令，任何对存储器数据进行操作的指令都可用于 I/O 端口的数据操作。</p>
+</blockquote>
+<ul>
+<li>A. 状态端口和控制端口可以合用同一寄存器中</li>
+<li>B. I/O接口中CPU可访问寄存器，称为I/0端口</li>
+<li>C. 采用独立编址方式时，I/O端口地址和主存地址可能相同</li>
+<li>D. 采用统一编址方式时，CPU不能用访存指令访问I/O端口</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>I/O 指令实现的数据传送通常发生在（D）</p>
+<blockquote>
+<p>D 正确，</p>
+<p>A.IO设备和I/0端口之间。这不是通过I/0指令直接实现的，而是通过系统的其他部分(例如DMA或中断)。<br>B. 通用寄存器和I/0设备之间。数据不会直接从通用寄存器传输到I/0设备，它们需要一个中间介质，通常是I/0端口.<br>C.I/O端口和I/0端口之间。这不是常规的操作，两个I/0端口之间通常不会直接传输数据。<br>D.通用寄存器和I/0端口之间。这是正确的选择。当CPU需要与外部设备进行通信时，它通常将数据从通用寄存器写入I/0端口，或从I/0端口读取数据到通用寄存器。<br>答案是 D。数据传送通常发生在通用寄存器和I/0端口之间。</p>
+</blockquote>
+<ul>
+<li>A. I/O 设备和 I/O 端口之间</li>
+<li>B. 通用寄存器和 I/O 设备之间</li>
+<li>C. I/O 端口和I/O 端口之间</li>
+<li>D. 通用寄存器和I/O 端口之间</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列事件中，属于外部中断事件的是（C）</p>
+<p>I. 访存时缺页 II. 定时器到时 III. 网络数据包到达</p>
+<blockquote>
+<p>C 正确，访存时缺页属于内部中断。</p>
+</blockquote>
+<ul>
+<li>A. I, II</li>
+<li>B. I, III</li>
+<li>C. II, III</li>
+<li>D. I, II, III</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在采用中断I/0方式控制打印输出的情况下, CPU和打印控制接口中的 I/O 端口之间交换的信息不可能是（B）</p>
+<blockquote>
+<p>选择 B，</p>
+<p>I/0 接口的功能包括:①选址功能;②传送命令功能;③传送数据功能;④反映I/0 设备工作状态功能。A项为数据，C项为设备状态，D项为命令。B项，主存地址在中断方式控制下是不需要的，因此，它不可能是 CPU 和打印控制接口中的I/0 端口之间交换的信息。</p>
+</blockquote>
+<ul>
+<li>A.打印字符</li>
+<li>B.主存地址</li>
+<li>C.设备状态</li>
+<li>D.控制命令</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列选四项中,能引起外部中断的事件是(A)。</p>
+<blockquote>
+<p>A 正确，浮点数下溢一般做“机器零”处理,不引起中断;除数为0、访存缺页会引出内部中断;只有键盘输入<br>能引起外部中断</p>
+</blockquote>
+<ul>
+<li>A.键盘输入</li>
+<li>B. 除数为0</li>
+<li>C.浮点运算下溢</li>
+<li>D. 访存缺页</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>响应外部中断的过程中,中断隐指令完成的操作,除保护断点外,还包括 (B)<br>I. 关中断 II. 保存通用寄存器的内容 III. 形成中断服务程序入口地址并送PC</p>
+<blockquote>
+<p>B 正确，中断隐指令完成以下三大任务: 程序断点进栈、关中断、向量地址-PC</p>
+</blockquote>
+<ul>
+<li>A. 仅I、II</li>
+<li>B. 仅I、III</li>
+<li>C. 仅II、III</li>
+<li>D. I、II、III</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>单级中断系统中,中断服务程序内的执行顺序是（A）</p>
+<p>I.保护现场 II. 开中断 III.关中断 IV.保存断点 V.中断事件处理 VI.恢复现场 VII.中断返回</p>
+<blockquote>
+<p>A 正确，在单级中断系统中，一旦响应了一个中断，可以不必使用关中断的措施来防止再来一个新的<br>中断干扰已经开始的中断保存现场和恢复现场的工作。响应与处理中断的几项操作是有严格顺序关系的，<br>不能颠倒。</p>
+</blockquote>
+<ul>
+<li>A. I→&gt;V→&gt;VI→II-&gt;VII</li>
+<li>B. III→I→V→VII</li>
+<li>C. III→IV→V →VI→VII</li>
+<li>D. IV→I→V→VI→VII</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下列关于外部I/O中断的叙述中,正确的是(C)。</p>
+<blockquote>
+<p>C 正确，</p>
+<p>A 项，中断控制器按中断请求的重要性和紧迫程度进行中断优先级排队，与先后次序无关。</p>
+<p>B项，CPU 响应中断时，通过执行保存寄存器的数值(保护现场)完成通用寄存器的保护。</p>
+<p>D项，有中断请求时，需要进行进程优先级的比较，CPU 不是立即暂停当前指令执行，转去执行中断服务程序.</p>
+</blockquote>
+<ul>
+<li>A. 中断控制器按所接受中断请求的先后次序进行中断优先级排队</li>
+<li>B. CPU响应中断时,通过执行中断隐指令完成通用寄存器的保护</li>
+<li>C. CPU只有在处于中断允许状态下时,才能响应外部设备的中断请求</li>
+<li>D. 有中断请求时,CPU立即暂停当前指令执行,转去执行中断服务程序</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>系统将数据从磁盘读到内存的过程包括以下操作</p>
+<p>① DMA控制器发出中断请求</p>
+<p>② 初始化DMA控制器并启动磁盘</p>
+<p>③ 从磁盘传输一块数据到内存缓冲区</p>
+<p>④ 执行“DMA结束”中断服务程序<br>正确的执行顺序是()。</p>
+<blockquote>
+<p>B 正确，系统将数据从磁盘读到内存的过程:在开始DMA传输时，主机向内存写入DMA命令块<br>向DMA控制器写入该命令块的地址，启动I/0设备;CPU继续其他工作，DMA控制器则继续下去直接操作内存总线，将地址放到总线上开始传输;完成整个传输，DMA控制器中断CPU。</p>
+</blockquote>
+<ul>
+<li>A. ③ →① →② →④</li>
+<li>B. ② →③ →① →④</li>
+<li>C. ②→① →③ →④</li>
+<li>D. ① →② →④ →③</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>一台显示器的图形分辨率为1024x768，要求显示256种颜色，显示存储器VRAM的容量至少为 (B)</p>
+<blockquote>
+<p>B 正确，N=VRAM容量/(垂直点数x水平点数)其中，N为显示每点颜色的二进制[2位数，本题中256种颜色故需8位，N=8，VRAM容量=(1024x768)x8=768KB，故至少需要 1MB </p>
+</blockquote>
+<ul>
+<li>A. 512KB</li>
+<li>B. 1MB</li>
+<li>C. 3MB</li>
+<li>D. 4MB</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>为提高存储器存取效率,在安排磁盘上的信息分布时，通常是（C）</p>
+<blockquote>
+<p>C 正确，如果选择同一柱面上的不同磁道,由于各记录面的磁头已同时定位,换道的时<br>间只是磁头选择电路的译码时间,相对于定位操作可以忽略不计.</p>
+</blockquote>
+<ul>
+<li>A.存满一面,再存另一面</li>
+<li>B.尽量将同一文件存放在一个扇区或相邻扇区的各磁道上</li>
+<li>C.尽量将同一文件存放在不同面的同一磁道上</li>
+<li>D.上述方法均有效</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>I/O 采用统一编址时，进行输入输出操作的指令是（B）</p>
+<blockquote>
+<p>B 正确，统一编址就是将 I/O 地址看作是存储器地址的一部分，无须专用的 I/O 指令，因此进行输入输出操作时使用访存指令。</p>
+</blockquote>
+<ul>
+<li>A. 控制指令</li>
+<li>B. 访存指令</li>
+<li>C. 输入输出指令</li>
+<li>D. 以上都不对</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>将外设与主存统一编址，一般是指（C）</p>
+<blockquote>
+<p>C 正确， 统一编址时把I/O接口中的端口(有关寄存器)作为主存单元进行访问,通常每个端口占一个主存单元地址</p>
+</blockquote>
+<ul>
+<li><p>A.每台设备占一个地址码</p>
+</li>
+<li><p>B.每个外设接口占一个地址码</p>
+</li>
+<li><p>C.接口中的有关寄存器各占一个地址码</p>
+</li>
+<li><p>D.每台外设由一个主存单元管理</p>
+</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在计算机系统中，外部设备通过I/O接口与主板的系统总线相连接，其功能是(D)</p>
+<blockquote>
+<p>D 正确，这些都是 I/O 接口的功能</p>
+</blockquote>
+<ul>
+<li>A.数据缓冲和数据格式转换</li>
+<li>B.检测外部设备的状态</li>
+<li>C.控制外部设备的操作</li>
+<li>D.前三种功能的综合作用</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>I/0接口中数据缓冲器的作用是（A）</p>
+<blockquote>
+<p>A 正确，I/0接口中数据缓冲器的作用是用来暂存外设和CPU之间传送的数据，当输入时，由设备送往数据缓冲器，再<br>由数据缓冲器通过数据总线送到内存。反之，输出时，由内存通过数据总线送到数据缓冲器，然后再送到设备。</p>
+</blockquote>
+<ul>
+<li>A. 用来暂存外设和CPU之间传送的数据</li>
+<li>B.用来暂存外设的状态</li>
+<li>C.用来暂存CPU发出的命令</li>
+<li>D.以上都是</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下面关于 I/O 设备控制方式的叙述中，正确的是（C）</p>
+<blockquote>
+<p>C 正确，</p>
+<p>A. 程序查询方式的 CPU 效率较高 - 错误。程序查询方式需要 CPU 持续轮询 I/O 设备状态,占用 CPU 时间较多,效率较低。</p>
+<p>B. 对于批量数据传输，通常需要进行数据流控制，以确保发送方和接收方之间的数据传输速率匹配。使用中断可能会使数据流控制更加复杂，因为中断的发生和处理可能会影响数据传输的速率和连续性。</p>
+<p>D. DMA 方式完成 I/O 处理较慢 - 错误。DMA (Direct Memory Access) 方式可以在不占用 CPU 的情况下直接在内存和 I/O 设备之间传输数据,效率较高。</p>
+</blockquote>
+<ul>
+<li>A. 程序查询方式的 CPU 效率较高</li>
+<li>B. 中断方式适于批量数据传送</li>
+<li>C. 中断方式需要 CPU 的较多干预</li>
+<li>D. DMA 方式完成 I/O 处理较慢</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>当有中断源发出请求时,CPU可执行相应的中断服务程序。提出中断请求的可以是（C）</p>
+<blockquote>
+<p>C 正确，中断请求可以来自 CPU 外部，也可以来自 CPU 内部。A,B,D 都不能发出中断请求</p>
+</blockquote>
+<ul>
+<li><p>A.通用寄存器</p>
+</li>
+<li><p>B.专用寄存器</p>
+</li>
+<li><p>C.外部事件</p>
+</li>
+<li>D. Cache</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在中断周期.CPU主要完成以下工作（A）</p>
+<blockquote>
+<p>A正确，在中断周期CPU执行中断隐指令,完成关中断、保存断点、形成中断服务程序入口地址3项操作。</p>
+</blockquote>
+<ul>
+<li>A.关中断,保护断点,发中断响应信号并形成中断服务程序入口地址</li>
+<li>B.开中断,保护断点,发中断响应信号并形成中断服务程序入口地址</li>
+<li>C.关中断,执行中断服务程序</li>
+<li>D.开中断,执行中断服务程序</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>在CPU响应中断时，保护两个关键的硬件状态是(B)。</p>
+<blockquote>
+<p>B 正确，程序计数器以(PC)的内容是被中断程序尚未执行的指令地址，程序状态字(PSW)寄存器保存各种状态信息。CPU响应中断后，需要保护中断的CPU现场，将PC和PSW压入堆栈，这样等到中断结束后，就可以将压入堆栈的原PC和PSW的内容返回相应的寄存器，原程序从断点开始继续执行。</p>
+</blockquote>
+<ul>
+<li>A.PC和IR</li>
+<li>B.PC和PSW</li>
+<li>C.AR和IR</li>
+<li>D.AR和PSW</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>下面关于中断的顺序,排列正确的是(A)</p>
+<blockquote>
+<p>A 正确，中断的顺序是中断请求、中断响应和中断处理。</p>
+</blockquote>
+<ul>
+<li>A.中断请求、中断响应、中断处理</li>
+<li>B.中断响应、中断请求、中断处理</li>
+<li>C.中断处理、中断响应、中断请求</li>
+<li>D.中断响应、中断处理、中断请求</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>I/0与主机交换信息的方式中，中断方式的特点是(B)。</p>
+<blockquote>
+<p>B 正确，当有中断发生时，CPU将暂停当前的主程序，转去处理中断事务，中断处理”完后，继续原来暂停的主程序。因此，中断方式的特点是:(1)CPU的效率高，不必查询等待:(2)<strong>CPU与外设可并行工作</strong>:(3)外设具有申请服务的主动权。</p>
+<p>在I/0与主机交换信息时，传送与主程序串行工作。</p>
+</blockquote>
+<ul>
+<li>A.CPU与设备串行工作，传送与主程序串行工作</li>
+<li>B.CPU与设备并行工作，传送与主程序串行工作</li>
+<li>C.CPU与设备并行工作，传送与主程序并行工作</li>
+<li>D.CPU与设备串行工作，传送与主程序并行工作</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>中断允许触发器用于(C)</p>
+<blockquote>
+<p>C 正确，中断允许触发器的作用是控制是否允许中断。当中断允许触发器为0时,中断关闭(关中断),所有中断源的中断请求都不能得到响应;当中断允许触发器为1时,中断允许(开中断),来自中断源的中断请求可以得到响应。</p>
+</blockquote>
+<ul>
+<li>A.向CPU发中断请求</li>
+<li>B.指示正有中断在进行</li>
+<li>C.开放或关闭中断系统</li>
+<li>D.指不中断处埋结束</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>若有多个中断同时发生,系统将根据中断优先级响应优先级最高的中断请求。若要调整中断事件的处理次序,可以利用(D)</p>
+<blockquote>
+<p>D 正确，如果有多个中断同时发生,要调整中断事件的处理次序,可以利用中断屏蔽的方式</p>
+</blockquote>
+<ul>
+<li>A. 中断嵌套</li>
+<li>B. 中断向量</li>
+<li>C. 中断响应</li>
+<li>D. 中断屏蔽</li>
+</ul>
+<p><br></p>
+</li>
+<li><p>设置中断屏蔽标志可以改变(D)。</p>
+<blockquote>
+<p>D 正确，中断屏蔽标志的二种作用是实现中断升级，即改变中断处理的次序(注意分清中断响应次序和中断处理次序<br>中断响应次序由硬件排队电路决定。当中断请求先后出现时，允许优先级高的中断请求打断优先级低的中断服务程序。</p>
+</blockquote>
+<ul>
+<li>A.多个中断源的中断请求优先级</li>
+<li>B.CPU对多个中断请求响应的优先次序</li>
+<li>C.多个中断服务程序开始执行的顺序</li>
+<li>D.多个中断服务程序执行完的次序</li>
+</ul>
+</li>
 </ol>
 </article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Kshqsz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/">http://example.com/2024/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Kshqsz's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a></div><div class="post_share"><div class="social-share" data-image="/img/computer%20organization-cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/05/23/JavaEE/" title="JavaEE"><img class="cover" src="/img/JavaEE-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">JavaEE</div></div></a></div><div class="next-post pull-right"><a href="/2024/05/22/Vue/" title="Vue"><img class="cover" src="/img/Vue-cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Vue</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" title="计算机组成原理"><img class="cover" src="/img/computer%20organization-cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-05-21</div><div class="title">计算机组成原理</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avator.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Kshqsz</div><div class="author-info__description">你<br>一会看我<br>一会看云<br>我觉得<br>你看我时很远<br>你看云时很近</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Kshqsz"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Kshqsz" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AC%A1-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">1.</span> <span class="toc-text">第一次 期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">2.</span> <span class="toc-text">寻址方式期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">3.</span> <span class="toc-text">第二次期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AC%A1-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text">第三次 期末复习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E6%AC%A1-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="toc-number">5.</span> <span class="toc-text">第四次 期末复习</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 950 (Div. 3)"/></a><div class="content"><a class="title" href="/2024/06/04/Codeforces-Round-950-Div-3/" title="Codeforces Round 950 (Div. 3)">Codeforces Round 950 (Div. 3)</a><time datetime="2024-06-04T04:32:04.000Z" title="发表于 2024-06-04 12:32:04">2024-06-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Educational Codeforces Round 166 (Rated for Div. 2)"/></a><div class="content"><a class="title" href="/2024/06/02/Educational-Codeforces-Round-166-Rated-for-Div-2/" title="Educational Codeforces Round 166 (Rated for Div. 2)">Educational Codeforces Round 166 (Rated for Div. 2)</a><time datetime="2024-06-02T11:14:54.000Z" title="发表于 2024-06-02 19:14:54">2024-06-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 948 (Div. 2)"/></a><div class="content"><a class="title" href="/2024/05/27/Codeforces-Round-948-Div-2/" title="Codeforces Round 948 (Div. 2)">Codeforces Round 948 (Div. 2)</a><time datetime="2024-05-27T09:59:07.000Z" title="发表于 2024-05-27 17:59:07">2024-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)"><img src="/img/ICPC.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Codeforces Round 947 (Div.1 + Div.2)"/></a><div class="content"><a class="title" href="/2024/05/26/Codeforces-Round-947-Div-1-Div-2/" title="Codeforces Round 947 (Div.1 + Div.2)">Codeforces Round 947 (Div.1 + Div.2)</a><time datetime="2024-05-26T05:07:01.000Z" title="发表于 2024-05-26 13:07:01">2024-05-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/23/JavaEE/" title="JavaEE"><img src="/img/JavaEE-cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JavaEE"/></a><div class="content"><a class="title" href="/2024/05/23/JavaEE/" title="JavaEE">JavaEE</a><time datetime="2024-05-23T00:12:31.000Z" title="发表于 2024-05-23 08:12:31">2024-05-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Kshqsz</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
