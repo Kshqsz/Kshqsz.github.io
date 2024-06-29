@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-06-26T03:44:56.938Z</updated>
+  <updated>2024-06-29T13:18:30.224Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Educational Codeforces Round 167 (Rated for Div. 2)</title>
+    <link href="http://example.com/2024/06/29/Educational-Codeforces-Round-167-Rated-for-Div-2/"/>
+    <id>http://example.com/2024/06/29/Educational-Codeforces-Round-167-Rated-for-Div-2/</id>
+    <published>2024-06-29T12:55:50.000Z</published>
+    <updated>2024-06-29T13:18:30.224Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="B-Substring-and-Subsequence"><a href="#B-Substring-and-Subsequence" class="headerlink" title="B. Substring and Subsequence"></a>B. Substring and Subsequence</h1><p><strong>题意</strong>: 给定字符串 a 和 b，找到最短字符串 s 满足 a 是 s  的字串，b 是 s 的子序列， 输出这个最短长度</p><p><strong>分析</strong>: 此题主要考察求字符串 b 长度为 a 的长度的子串 在 a 中的 最长子序列</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    string a, b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n = a.<span class="built_in">size</span>(), m = b.<span class="built_in">size</span>();</span><br><span class="line">    <span class="type">int</span> ans = n + m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">        <span class="type">int</span> k = i;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (k &lt; m &amp;&amp; a[j] == b[k]) &#123;</span><br><span class="line">                k++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> len = k - i;</span><br><span class="line">        ans = <span class="built_in">min</span>(ans, n + m - len);</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin.<span class="built_in">tie</span>(<span class="number">0</span>), cout.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t;</span><br><span class="line">    cin &gt;&gt; t;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (t--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;B-Substring-and-Subsequence&quot;&gt;&lt;a href=&quot;#B-Substring-and-Subsequence&quot; class=&quot;headerlink&quot; title=&quot;B. Substring and Subsequence&quot;&gt;&lt;/a&gt;B. S</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="codeforces" scheme="http://example.com/tags/codeforces/"/>
+    
+  </entry>
   
   <entry>
     <title>Codeforces Round 955 (Div. 2)</title>
