@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-09-18T13:04:53.555Z</updated>
+  <updated>2024-09-19T12:57:18.014Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python生成随机数</title>
+    <link href="http://example.com/2024/09/19/python%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/"/>
+    <id>http://example.com/2024/09/19/python%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/</id>
+    <published>2024-09-19T12:57:03.000Z</published>
+    <updated>2024-09-19T12:57:18.014Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2024/09/19/python%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/image-20240919205715793.png" alt="image-20240919205715793"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2024/09/19/python%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/image-20240919205715793.png&quot; alt=&quot;image-20240919205715793&quot;&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Vue3项目构建</title>
