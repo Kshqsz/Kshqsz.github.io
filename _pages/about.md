@@ -43,7 +43,7 @@ I received my Bachelor's degree in Computer Science and Technology from Suzhou U
 
 # 🎖 Honors and Awards
 
-### National Awards
+### Competition Awards
 
 - *2024* **National First Prize**, RAICOM Programming Skills Competition - National Finals
 - *2024* **National Second Prize**, The 15th Lanqiao Cup C/C++ Programming Competition - National Finals
