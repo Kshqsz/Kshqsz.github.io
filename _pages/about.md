@@ -54,10 +54,11 @@ I received my Bachelor's degree in Computer Science and Technology from Suzhou U
 
 ### Software Development
 
-- **Software Engineering Center Trading System** (University Project)
+- **Software Engineering Center Trading System** *(Software Copyright Registered)*
   - Core developer responsible for full-stack implementation
   - Tech Stack: Spring Boot + Vue 3 + MySQL + Alibaba Cloud OSS
   - Implemented secure file storage with Aliyun OSS integration
+  - Obtained **Software Copyright** from the National Copyright Administration of China
 
 ### 📫 Contact
 
