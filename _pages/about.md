@@ -38,6 +38,7 @@ I received my Bachelor's degree in Computer Science and Technology from Suzhou U
   - Research Focus: Natural Language Processing, Large Language Models
 - *2022.09 - 2026.06*, **B.S. in Computer Science and Technology**, Suzhou University of Science and Technology, Suzhou, China
 
+
   - Honors: National Scholarship (2025), Outstanding Student Model, First-class & Special Scholarship (3 consecutive years)
   - Admitted to graduate school through **Recommendation for Postgraduate Study**
 
