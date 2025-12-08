@@ -25,7 +25,7 @@ author:
   avatar           : "images/profile/avatar.jpg"
   bio              : "Soochow University"
   location         : "Suzhou, China"
-  employer         : "OpenNLG Research Group"
+  employer         : 
   pubmed           : 
   googlescholar    :  # e.g., "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "shoukunhan@gmail.com"
