@@ -22,13 +22,6 @@ I am a Master's student in **Artificial Intelligence** at [Soochow University](h
 
 I received my Bachelor's degree in Computer Science and Technology from Suzhou University of Science and Technology, where I ranked **1st out of 82** students in my major. I was awarded the prestigious **National Scholarship** in 2025 and have been a dedicated participant in competitive programming, representing my university in ACM-ICPC regional contests.
 
-My research interests include:
-
-- **Natural Language Processing (NLP)**
-- **Large Language Models (LLM)**
-- **Natural Language Generation (NLG)**
-- **AI Research & Innovation**
-
 # 🔥 News
 
 - *2026.09*: 🎉 Started my M.S. program in Artificial Intelligence at Soochow University!
@@ -54,9 +47,6 @@ My research interests include:
 
 - *2024* **National First Prize**, RAICOM Programming Skills Competition - National Finals
 - *2024* **National Second Prize**, The 15th Lanqiao Cup C/C++ Programming Competition - National Finals
-
-### Provincial Awards
-
 - *2024, 2025* **Provincial First Prize** (×2), Lanqiao Cup C/C++ Programming Competition - Jiangsu Province (15th & 16th)
 - *2024, 2025* **Bronze Medal** (×2), JSCPC "Huawei Cup" Jiangsu Provincial Collegiate Programming Contest
 - *2024* **Bronze Medal**, The 20th Baidu Star Programming Contest - Jiangsu Province
@@ -67,12 +57,7 @@ My research interests include:
 - *2025* **National Scholarship** - Top academic honor for Chinese undergraduates
 - *2022-2025* **First-class & Special Scholarship** - 3 consecutive years
 
-### Development Frameworks
-
-- **Backend**: Spring Boot, MyBatis
-- **Frontend**: Vue 3, Element Plus, TypeScript
-
-# 📝 Projects 
+# 📝 Projects
 
 ### Software Development
 

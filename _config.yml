@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Shoukun Han"
-description              : "M.S. Student in Artificial Intelligence at Soochow University | OpenNLG Research Group | NLP & LLM Researcher"
+description              : "M.S. Student in AI at Soochow University"
 repository               : "Kshqsz/Kshqsz.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shoukun Han"
+  name             : "Shoukun Han(韩守坤)"
   avatar           : "images/profile/avatar.jpg"
-  bio              : "M.S. Student @ Soochow University"
+  bio              : "Soochow University"
   location         : "Suzhou, China"
   employer         : "OpenNLG Research Group"
   pubmed           : 
