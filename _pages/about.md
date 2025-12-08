@@ -18,7 +18,7 @@ redirect_from:
 
 # About Me
 
-I am a Master's student in **Artificial Intelligence** at [Soochow University](https://www.suda.edu.cn/), working with the [OpenNLG Research Group](https://opennlg.cn/) under the supervision of [Prof. Juntao Li](https://scst.suda.edu.cn/0e/49/c11250a527945/page.htm). My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLM)**.
+My name is Shoukun Han(韩守坤) and I am a Master's student in **Artificial Intelligence** at [Soochow University](https://www.suda.edu.cn/), working with the [OpenNLG Research Group](https://opennlg.cn/) under the supervision of [Prof. Juntao Li](https://scst.suda.edu.cn/0e/49/c11250a527945/page.htm). My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLM)**.
 
 I received my Bachelor's degree in Computer Science and Technology from Suzhou University of Science and Technology, where I ranked **1st out of 82** students in my major. I was awarded the prestigious **National Scholarship** in 2025 and have been a dedicated participant in competitive programming, representing my university in ACM-ICPC regional contests.
 

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Shoukun Han"
-description              : "M.S. Student in AI at Soochow University"
+description              : "AI Research Beginner"
 repository               : "Kshqsz/Kshqsz.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shoukun Han(韩守坤)"
+  name             : "Shoukun Han"
   avatar           : "images/profile/avatar.jpg"
-  bio              : "Soochow University"
+  bio              : "M.S. Student at Soochow University"
   location         : "Suzhou, China"
   employer         : 
   pubmed           : 
