@@ -18,7 +18,7 @@ redirect_from:
 
 # About Me
 
-I am a Master's student in **Artificial Intelligence** at [Soochow University](https://www.suda.edu.cn/), working with the [OpenNLG Research Group](https://opennlg.cn/) under the supervision of Prof. **Juntao Li**. My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLM)**.
+I am a Master's student in **Artificial Intelligence** at [Soochow University](https://www.suda.edu.cn/), working with the [OpenNLG Research Group](https://opennlg.cn/) under the supervision of [Prof. Juntao Li](https://scst.suda.edu.cn/0e/49/c11250a527945/page.htm). My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLM)**.
 
 I received my Bachelor's degree in Computer Science and Technology from Suzhou University of Science and Technology, where I ranked **1st out of 82** students in my major. I was awarded the prestigious **National Scholarship** in 2025 and have been a dedicated participant in competitive programming, representing my university in ACM-ICPC regional contests.
 
@@ -31,15 +31,8 @@ I received my Bachelor's degree in Computer Science and Technology from Suzhou U
 
 # 📖 Education
 
-- *2026.09 - Present*, **M.S. in Artificial Intelligence**, Soochow University, Suzhou, China
-
-  - Research Group: [OpenNLG](https://opennlg.cn/)
-  - Advisor: Prof. Juntao Li
-  - Research Focus: Natural Language Processing, Large Language Models
+- *2026.09 - Present*, **M.S. in Artificial Intelligence**, Soochow University, Suzhou, China. Supervised by [Prof.Juntao Li](https://scst.suda.edu.cn/0e/49/c11250a527945/page.htm)
 - *2022.09 - 2026.06*, **B.S. in Computer Science and Technology**, Suzhou University of Science and Technology, Suzhou, China
-
-  - Honors: National Scholarship (2025), Outstanding Student Model, First-class & Special Scholarship (3 consecutive years)
-  - Admitted to graduate school through **Recommendation for Postgraduate Study**
 
 # 🎖 Honors and Awards
 
