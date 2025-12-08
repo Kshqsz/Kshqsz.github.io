@@ -13,7 +13,11 @@
   <a href="https://www.suda.edu.cn/">Soochow University</a> | <a href="https://opennlg.cn/">OpenNLG Research Group</a>
 </p>
 
----
+## 🌐 Academic Homepage
+
+This repository hosts my academic homepage built with Jekyll, based on the [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) template.
+
+**🔗 Visit: [https://kshqsz.github.io](https://kshqsz.github.io)**
 
 ## 👨‍💻 About Me
 
@@ -31,10 +35,10 @@ I received my B.S. in Computer Science from Suzhou University of Science and Tec
 
 ## 🎓 Education
 
-| Degree | Institution | Duration |
-|--------|-------------|----------|
-| **M.S. in Artificial Intelligence** | Soochow University | 2026.09 - Present |
-| **B.S. in Computer Science** | Suzhou University of Science and Technology | 2022.09 - 2026.06 |
+| Degree                                    | Institution                                 | Duration          |
+| ----------------------------------------- | ------------------------------------------- | ----------------- |
+| **M.S. in Artificial Intelligence** | Soochow University                          | 2026.09 - Present |
+| **B.S. in Computer Science**        | Suzhou University of Science and Technology | 2022.09 - 2026.06 |
 
 ---
 
