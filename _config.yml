@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Shoukun Han (韩守坤)"
-description              : "Computer Science Researcher | Passionate about AI, Algorithms, and Software Engineering"
+title                    : "Shoukun Han"
+description              : "M.S. Student in Artificial Intelligence at Soochow University | OpenNLG Research Group | NLP & LLM Researcher"
 repository               : "Kshqsz/Kshqsz.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shoukun Han (韩守坤)"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Computer Science Researcher"
-  location         : "China"
-  employer         :
+  name             : "Shoukun Han"
+  avatar           : "images/profile/avatar.jpg"
+  bio              : "M.S. Student @ Soochow University"
+  location         : "Suzhou, China"
+  employer         : "OpenNLG Research Group"
   pubmed           : 
   googlescholar    :  # e.g., "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "your-email@example.com"
+  email            : "shoukunhan@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
