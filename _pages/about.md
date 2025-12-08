@@ -70,7 +70,7 @@ I received my Bachelor's degree in Computer Science and Technology from Suzhou U
 
 Feel free to reach out to me!
 
-- 📧 **Email**: [shoukunhan@gmail.com](mailto:shoukunhan@gmail.com)
-- 💻 **GitHub**: [github.com/Kshqsz](https://github.com/Kshqsz)
-- 🏫 **Affiliation**: [OpenNLG Research Group](https://opennlg.cn/), Soochow University
-- 📍 **Location**: Suzhou, China
+- **Email**: [shoukunhan@gmail.com](mailto:shoukunhan@gmail.com)
+- **GitHub**: [github.com/Kshqsz](https://github.com/Kshqsz)
+- **Affiliation**: [OpenNLG Research Group](https://opennlg.cn/), Soochow University
+- **Location**: Suzhou, China
